@@ -20,3 +20,10 @@ echo "My first PHP script!";
 
 ```
 ## PHP Introduction
+
+#  What You Should Already Know
+Before you continue you should have a basic understanding of the following:
+
+HTML
+CSS
+JavaScript
