@@ -53,4 +53,5 @@ Before you continue you should have a basic understanding of the following:
 - PHP can add, delete, modify data in your database
 - PHP can be used to control user-access
 - PHP can encrypt data
+  
 With PHP you are not limited to output HTML. You can output images or PDF files. You can also output any text, such as XHTML and XML.
