@@ -120,3 +120,18 @@ echo "Hello World!";
 
 ## Example
 - ECHO is the same as echo:
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+ECHO "Hello World!<br>";
+echo "Hello World!<br>";
+EcHo "Hello World!<br>";
+?>
+
+</body>
+</html>
+```
+- Note: However; all variable names are case-sensitive!
