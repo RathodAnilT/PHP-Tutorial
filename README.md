@@ -157,4 +157,5 @@ echo "My boat is " . $coLOR . "<br>";
 </html>
 ```
 
+## PHP Comments
 
