@@ -168,3 +168,6 @@ echo "My boat is " . $coLOR . "<br>";
 - Leave out some parts of your code
   
 PHP supports several ways of commenting:
+
+## Example
+- Syntax for comments in PHP code:
