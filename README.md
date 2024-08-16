@@ -86,7 +86,6 @@ With PHP you are not limited to output HTML. You can output images or PDF files.
 ?>
 </body>
 </html>
-
 ```
 
 - The default file extension for PHP files is ".php".
@@ -99,7 +98,7 @@ Below, we have an example of a simple PHP file, with a PHP script that uses a bu
 - A simple .php file with both HTML code and PHP code:
 
  
-```
+```html
  <!DOCTYPE html>
 <html>
 <body>
@@ -113,3 +112,4 @@ echo "Hello World!";
 </body>
 </html>
 ```
+- Note: PHP statements end with a semicolon (;).
