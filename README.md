@@ -140,3 +140,21 @@ EcHo "Hello World!<br>";
 
 ## Example
 - $COLOR is not same as $color:
+
+```html
+  <!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$color = "red";
+echo "My car is " . $color . "<br>";
+echo "My house is " . $COLOR . "<br>";
+echo "My boat is " . $coLOR . "<br>";
+?>
+
+</body>
+</html>
+```
+
+
