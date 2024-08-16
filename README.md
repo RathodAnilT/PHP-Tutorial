@@ -97,3 +97,19 @@ Below, we have an example of a simple PHP file, with a PHP script that uses a bu
 
 ## Example
 - A simple .php file with both HTML code and PHP code:
+
+ 
+```
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first PHP page</h1>
+
+<?php
+echo "Hello World!";
+?>
+
+</body>
+</html>
+```
