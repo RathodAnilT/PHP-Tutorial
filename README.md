@@ -75,9 +75,17 @@ With PHP you are not limited to output HTML. You can output images or PDF files.
 ## Basic PHP Syntax
 - A PHP script can be placed anywhere in the document.
 - A PHP script starts with <?php and ends with ?>:
-  ```html
+  
+```html
+<!DOCTYPE html>
+<html>
+<body>
+ 
   <?php
 // PHP code goes here
 ?>
+</body>
+</html>
+
 ```
 
