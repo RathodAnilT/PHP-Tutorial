@@ -68,3 +68,5 @@ With PHP you are not limited to output HTML. You can output images or PDF files.
 - PHP 7 has improved Error Handling
 - PHP 7 supports stricter Type Declarations for function arguments
 - PHP 7 supports new operators (like the spaceship operator: <=>)
+
+## PHP Syntax
