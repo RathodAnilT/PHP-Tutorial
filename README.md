@@ -70,3 +70,4 @@ With PHP you are not limited to output HTML. You can output images or PDF files.
 - PHP 7 supports new operators (like the spaceship operator: <=>)
 
 ## PHP Syntax
+- A PHP script is executed on the server, and the plain HTML result is sent back to the browser.
