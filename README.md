@@ -137,3 +137,6 @@ EcHo "Hello World!<br>";
 - Note: However; all variable names are case-sensitive!
   
 - Look at the example below; only the first statement will display the value of the $color variable! This is because $color, $COLOR, and $coLOR are treated as three different variables:
+
+## Example
+- $COLOR is not same as $color:
