@@ -206,3 +206,8 @@ echo "Welcome Home!"; // Outputs a welcome message
 
 ## Comments to Ignore Code
 -- We can use comments to prevent code lines from being executed:
+
+## Example
+-- Do not display a welcome message:
+
+// echo "Welcome Home!";
