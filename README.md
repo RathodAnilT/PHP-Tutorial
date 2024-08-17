@@ -233,3 +233,4 @@ echo $x;
 <html>
 <body>
 ```
+## PHP Variables
