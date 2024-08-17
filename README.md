@@ -191,3 +191,8 @@ multi-line comment */
 
  ## Example
 -- A comment before the code:
+
+// Outputs a welcome message:
+```
+echo "Welcome Home!";
+```
