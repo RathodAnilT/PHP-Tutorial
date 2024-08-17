@@ -251,4 +251,10 @@ $y = "John"
 <body>
 ```
 
+In the example above, the variable $x will hold the value 5, and the variable $y will hold the value "John".
+
+- Note: When you assign a text value to a variable, put quotes around the value.
+
+- Note: Unlike other programming languages, PHP has no command for declaring a variable. It is created the moment you first assign a value to it.
+
 
