@@ -287,4 +287,14 @@ echo "I love $txt!";
 $txt = "W3Schools.com";
 echo "I love " . $txt . "!";
 ```
----## Example---
+
+- The following example will output the sum of two variables:
+
+## Example
+
+```
+$x = 5;
+$y = 4;
+echo $x + $y;
+```
+
