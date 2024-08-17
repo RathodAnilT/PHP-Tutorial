@@ -268,4 +268,4 @@ In the example above, the variable $x will hold the value 5, and the variable $y
 - A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 - Variable names are case-sensitive ($age and $AGE are two different variables)
 
-  ## Remember that PHP variable names are case-sensitive! ##
+## Remember that PHP variable names are case-sensitive! ##
