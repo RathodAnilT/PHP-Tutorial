@@ -280,4 +280,11 @@ In the example above, the variable $x will hold the value 5, and the variable $y
 $txt = "W3Schools.com";
 echo "I love $txt!";
 ```
+- The following example will produce the same output as the example above:
 
+## Example
+```
+$txt = "W3Schools.com";
+echo "I love " . $txt . "!";
+```
+---## Example---
