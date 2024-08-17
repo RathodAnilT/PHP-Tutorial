@@ -225,6 +225,11 @@ echo "Welcome Home!"; // Outputs a welcome message
 - The  + 15 part will be ignored in the calculation:
 
 ```html
+<!DOCTYPE html>
+<html>
+<body>
 $x = 5 /* + 15 */ + 5;
 echo $x;
+<html>
+<body>
 ```
