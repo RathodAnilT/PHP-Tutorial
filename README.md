@@ -220,3 +220,11 @@ echo "Welcome Home!"; // Outputs a welcome message
 - Any text between /* and */ will be ignored.
 
 - The following example uses a multi-line comment as an explanation:
+
+## Example
+- The  + 15 part will be ignored in the calculation:
+
+```html
+$x = 5 /* + 15 */ + 5;
+echo $x;
+```
