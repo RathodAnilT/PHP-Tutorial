@@ -196,3 +196,5 @@ multi-line comment */
 ```
 echo "Welcome Home!";
 ```
+## Example
+-- A comment at the end of a line:
