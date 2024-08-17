@@ -180,3 +180,11 @@ PHP supports several ways of commenting:
 /* This is a
 multi-line comment */
 ```
+## Single Line Comments
+- Single line comments start with //.
+
+- Any text between // and the end of the line will be ignored (will not be executed).
+
+- You can also use # for single line comments, but in this tutorial we will use //.
+
+- The following examples uses a single-line comment as an explanation:
