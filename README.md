@@ -211,3 +211,5 @@ echo "Welcome Home!"; // Outputs a welcome message
 -- Do not display a welcome message:
 
 // echo "Welcome Home!";
+
+## PHP Multiline Comments
