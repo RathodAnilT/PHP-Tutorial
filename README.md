@@ -269,3 +269,15 @@ In the example above, the variable $x will hold the value 5, and the variable $y
 - Variable names are case-sensitive ($age and $AGE are two different variables)
 
 ## Remember that PHP variable names are case-sensitive! ##
+
+## Output Variables
+- The PHP echo statement is often used to output data to the screen.
+
+- The following example will show how to output text and a variable:
+
+## Example
+```
+$txt = "W3Schools.com";
+echo "I love $txt!";
+```
+
