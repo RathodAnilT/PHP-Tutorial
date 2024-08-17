@@ -188,3 +188,6 @@ multi-line comment */
 - You can also use # for single line comments, but in this tutorial we will use //.
 
 - The following examples uses a single-line comment as an explanation:
+
+ ## Example
+-- A comment before the code:
