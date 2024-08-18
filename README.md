@@ -358,3 +358,8 @@ var_dump(NULL);
 $x = "John";
 echo $x;
 ```
+- String variables can be declared either by using double or single quotes, but you should be aware of the differences. Learn more about the differences in the PHP Strings 
+  chapter.
+
+## Assign Multiple Values
+- You can assign the same value to multiple variables in one line:
