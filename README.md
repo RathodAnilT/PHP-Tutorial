@@ -368,3 +368,4 @@ echo $x;
 ```
 $x = $y = $z = "Fruit";
 ```
+## PHP Variables Scope
