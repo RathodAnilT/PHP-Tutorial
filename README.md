@@ -351,4 +351,5 @@ var_dump(true);
 var_dump([2, 3, 56]);
 var_dump(NULL);
 ```
-
+## Assign String to a Variable
+- Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
