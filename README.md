@@ -426,3 +426,20 @@ function myTest() {
 myTest();
 echo $y; // outputs 15
 ```
+- PHP also stores all global variables in an array called $GLOBALS[index]. The index holds the name of the variable. This array is also accessible from within functions and 
+  can be used to update global variables directly.
+
+***The example above can be rewritten like this:***
+
+## Example
+```
+$x = 5;
+$y = 10;
+
+function myTest() {
+  $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+}
+
+myTest();
+echo $y; // outputs 15
+```
