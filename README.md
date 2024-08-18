@@ -518,3 +518,5 @@ $txt2 = "W3Schools.com";
 echo '<h2>' . $txt1 . '</h2>';
 echo '<p>Study PHP at ' . $txt2 . '</p>';
 ```
+## The PHP print Statement
+- The print statement can be used with or without parentheses: print or print().
