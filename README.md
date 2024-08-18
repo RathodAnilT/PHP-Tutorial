@@ -528,3 +528,10 @@ print("Hello");
 ```
 ## Display Text
 - The following example shows how to output text with the print command (notice that the text can contain HTML markup):
+
+## Example
+```
+print "<h2>PHP is Fun!</h2>";
+print "Hello world!<br>";
+print "I'm about to learn PHP!";
+```
