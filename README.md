@@ -363,3 +363,8 @@ echo $x;
 
 ## Assign Multiple Values
 - You can assign the same value to multiple variables in one line:
+## Example
+- All three variables get the value "Fruit":
+```
+$x = $y = $z = "Fruit";
+```
