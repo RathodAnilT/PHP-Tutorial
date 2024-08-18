@@ -448,3 +448,15 @@ echo $y; // outputs 15
   job.
 
 - To do this, use the static keyword when you first declare the variable:
+## Example
+```
+function myTest() {
+  static $x = 0;
+  echo $x;
+  $x++;
+}
+
+myTest();
+myTest();
+myTest();
+```
