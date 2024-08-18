@@ -484,3 +484,5 @@ echo "Hello";
 //same as:
 echo("Hello");
 ```
+## Display Text
+- The following example shows how to output text with the echo command (notice that the text can contain HTML markup):
