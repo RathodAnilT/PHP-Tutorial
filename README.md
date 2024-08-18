@@ -464,4 +464,4 @@ myTest();
 
 ***Note: The variable is still local to the function.***
 
-
+## PHP echo and print Statements
