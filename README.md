@@ -320,3 +320,13 @@ $y = "John"; // $y is a string
 echo $x;
 echo $y;
 ```
+## PHP supports the following data types:
+
+- String
+- Integer
+- Float (floating point numbers - also called double)
+- Boolean
+- Array
+- Object
+- NULL
+- Resource
