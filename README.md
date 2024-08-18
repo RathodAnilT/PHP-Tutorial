@@ -493,3 +493,5 @@ echo "Hello world!<br>";
 echo "I'm about to learn PHP!<br>";
 echo "This ", "string ", "was ", "made ", "with multiple parameters.";
 ```
+## Display Variables
+- The following example shows how to output text and variables with the echo statement:
