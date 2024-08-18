@@ -477,4 +477,10 @@ myTest();
  usage is rare) while print can take one argument. echo is marginally faster than print.
 
 ## The PHP echo Statement
-The echo statement can be used with or without parentheses: echo or echo().
+- The echo statement can be used with or without parentheses: echo or echo().
+## Example
+```
+echo "Hello";
+//same as:
+echo("Hello");
+```
