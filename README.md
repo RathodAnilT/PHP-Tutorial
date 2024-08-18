@@ -309,3 +309,14 @@ echo $x + $y;
   throw a "Fatal Error" on a type mismatch.
 
 - You will learn more about strict and non-strict requirements, and data type declarations in the PHP Functions chapter.
+
+Variable Types
+PHP has no command for declaring a variable, and the data type depends on the value of the variable.
+
+## Example
+```
+$x = 5;      // $x is an integer
+$y = "John"; // $y is a string
+echo $x;
+echo $y;
+```
