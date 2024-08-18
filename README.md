@@ -395,6 +395,7 @@ myTest();
 
 echo "<p>Variable x outside function is: $x</p>";
 ```
+***A variable declared within a function has a LOCAL SCOPE and can only be accessed within that function:***
 ## Example
 - Variable with local scope:
 ```
