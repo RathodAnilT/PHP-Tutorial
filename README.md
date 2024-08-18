@@ -526,3 +526,5 @@ print "Hello";
 //same as:
 print("Hello");
 ```
+## Display Text
+- The following example shows how to output text with the print command (notice that the text can contain HTML markup):
