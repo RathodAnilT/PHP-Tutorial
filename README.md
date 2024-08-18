@@ -330,3 +330,14 @@ echo $y;
 - Object
 - NULL
 - Resource
+
+## Get the Type
+- To get the data type of a variable, use the var_dump() function.
+
+## Example
+- The var_dump() function returns the data type and the value:
+
+```
+$x = 5;
+var_dump($x);
+```
