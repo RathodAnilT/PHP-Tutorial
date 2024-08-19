@@ -618,3 +618,8 @@ var_dump($x);
 ```
 ## PHP Boolean
 - A Boolean represents two possible states: TRUE or FALSE.
+## Example
+```
+$x = true;
+var_dump($x);
+```
