@@ -561,3 +561,5 @@ print '<h2>' . $txt1 . '</h2>';
 print '<p>Study PHP at ' . $txt2 . '</p>';
 ```
 ## PHP Data Types
+- Variables can store data of different types, and different data types can do different things.
+- PHP supports the following data types:
