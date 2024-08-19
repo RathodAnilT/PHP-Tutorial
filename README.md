@@ -635,3 +635,4 @@ var_dump($x);
 $cars = array("Volvo","BMW","Toyota");
 var_dump($cars);
 ```
+- You will learn a lot more about arrays in later chapters of this tutorial.
