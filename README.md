@@ -584,3 +584,12 @@ var_dump($x);
 - A string is a sequence of characters, like "Hello world!".
 
 - A string can be any text inside quotes. You can use single or double quotes:
+## Example
+```
+$x = "Hello world!";
+$y = 'Hello world!';
+
+var_dump($x);
+echo "<br>";
+```
+var_dump($y);
