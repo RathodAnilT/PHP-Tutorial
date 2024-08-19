@@ -591,5 +591,9 @@ $y = 'Hello world!';
 
 var_dump($x);
 echo "<br>";
-```
 var_dump($y);
+```
+## PHP Integer
+- An integer data type is a non-decimal number between -2,147,483,648 and 2,147,483,647.
+
+- Rules for integers:
