@@ -574,3 +574,9 @@ print '<p>Study PHP at ' . $txt2 . '</p>';
    
  ## Getting the Data Type
 - You can get the data type of any object by using the var_dump() function.
+## Example
+- The var_dump() function returns the data type and the value:
+```
+$x = 5;
+var_dump($x);
+```
