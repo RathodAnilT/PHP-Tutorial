@@ -602,3 +602,8 @@ var_dump($y);
   - An integer can be either positive or negative
   - Integers can be specified in: decimal (base 10), hexadecimal (base 16), octal (base 8), or binary (base 2) notation
 - In the following example $x is an integer. The PHP var_dump() function returns the data type and value:
+## Example
+```
+$x = 5985;
+var_dump($x);
+```
