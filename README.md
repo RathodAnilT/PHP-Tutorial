@@ -623,3 +623,6 @@ var_dump($x);
 $x = true;
 var_dump($x);
 ```
+- Booleans are often used in conditional testing.
+
+- You will learn more about conditional testing in the PHP If...Else chapter.
