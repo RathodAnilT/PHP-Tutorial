@@ -674,3 +674,4 @@ $x = "Hello world!";
 $x = null;
 var_dump($x);
 ```
+## Change Data Type
