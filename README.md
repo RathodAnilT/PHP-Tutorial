@@ -694,3 +694,4 @@ $x = 5;
 $x = (string) $x;
 var_dump($x);
 ```
+- You will learn more about casting in the PHP Casting Chapter.
