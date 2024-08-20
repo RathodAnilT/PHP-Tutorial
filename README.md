@@ -685,3 +685,6 @@ var_dump($x);
 $x = "Hello";
 var_dump($x);
 ```
+- If you want to change the data type of an existing variable, but not by changing the value, you can use casting.
+
+- Casting allows you to change data type on variables:
