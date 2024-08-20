@@ -662,3 +662,5 @@ class Car {
 $myCar = new Car("red", "Volvo");
 var_dump($myCar);
 ```
+- Do not worry if you do not understand the PHP Object syntax, you will learn more about that in the PHP Classes/Objects chapter.
+
