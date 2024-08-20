@@ -675,3 +675,4 @@ $x = null;
 var_dump($x);
 ```
 ## Change Data Type
+- If you assign an integer value to a variable, the type will automatically be an integer.
