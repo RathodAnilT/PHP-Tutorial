@@ -644,3 +644,4 @@ var_dump($cars);
   these properties.
 - When the individual objects (Volvo, BMW, Toyota, etc.) are created, they inherit all the properties and behaviors from the class, but each object will have different 
   values for the properties.
+- If you create a __construct() function, PHP will automatically call this function when you create an object from a class.
