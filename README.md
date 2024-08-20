@@ -638,3 +638,4 @@ var_dump($cars);
 - You will learn a lot more about arrays in later chapters of this tutorial.
 ## PHP Object
 - Classes and objects are the two main aspects of object-oriented programming.
+- A class is a template for objects, and an object is an instance of a class.
