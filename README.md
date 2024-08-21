@@ -718,3 +718,4 @@ echo 'Hello';
 $x = "John";
 echo "Hello $x";
 ```
+- Single quoted strings does not perform such actions, it returns the string like it was written, with the variable name:
