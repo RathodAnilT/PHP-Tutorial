@@ -750,3 +750,4 @@ echo strpos("Hello world!", "world");
 - Tip: The first character position in a string is 0 (not 1).
 ## Complete PHP String Reference
 - For a complete reference of all string functions, go to our complete PHP String Reference.
+- The PHP string reference contains description and example of use, for each function!
