@@ -701,3 +701,5 @@ var_dump($x);
 - We will not talk about the resource type here, since it is an advanced topic.
 ## PHP Strings
 - A string is a sequence of characters, like "Hello world!".
+## Strings
+- Strings in PHP are surrounded by either double quotation marks, or single quotation marks.
