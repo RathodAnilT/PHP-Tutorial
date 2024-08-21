@@ -748,3 +748,4 @@ echo str_word_count("Hello world!");
 echo strpos("Hello world!", "world");
 ```
 - Tip: The first character position in a string is 0 (not 1).
+## Complete PHP String Reference
