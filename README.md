@@ -703,3 +703,8 @@ var_dump($x);
 - A string is a sequence of characters, like "Hello world!".
 ## Strings
 - Strings in PHP are surrounded by either double quotation marks, or single quotation marks.
+## Example
+```
+echo "Hello";
+echo 'Hello';
+```
