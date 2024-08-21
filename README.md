@@ -709,3 +709,4 @@ echo "Hello";
 echo 'Hello';
 ```
 ## Double or Single Quotes?
+- You can use double or single quotes, but you should be aware of the differences between the two.
