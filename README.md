@@ -719,3 +719,9 @@ $x = "John";
 echo "Hello $x";
 ```
 - Single quoted strings does not perform such actions, it returns the string like it was written, with the variable name:
+## Example
+- Single quoted string literals returns the string as it is:
+```
+$x = "John";
+echo 'Hello $x';
+```
