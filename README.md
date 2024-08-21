@@ -696,3 +696,4 @@ var_dump($x);
 ```
 - You will learn more about casting in the PHP Casting Chapter.
 ## PHP Resource
+- The special resource type is not an actual data type. It is the storing of a reference to functions and resources external to PHP.
