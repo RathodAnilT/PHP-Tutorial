@@ -727,3 +727,8 @@ echo 'Hello $x';
 ```
 ## String Length
 - The PHP strlen() function returns the length of a string.
+## Example
+- Return the length of the string "Hello world!":
+```
+echo strlen("Hello world!");
+```
