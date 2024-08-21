@@ -740,3 +740,4 @@ echo strlen("Hello world!");
 echo str_word_count("Hello world!");
 ```
 ## Search For Text Within a String
+- The PHP strpos() function searches for a specific text within a string.
