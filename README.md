@@ -732,3 +732,5 @@ echo 'Hello $x';
 ```
 echo strlen("Hello world!");
 ```
+## Word Count
+- The PHP str_word_count() function counts the number of words in a string.
