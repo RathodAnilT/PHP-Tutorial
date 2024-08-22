@@ -752,3 +752,4 @@ echo strpos("Hello world!", "world");
 - For a complete reference of all string functions, go to our complete PHP String Reference.
 - The PHP string reference contains description and example of use, for each function!
 ## PHP - Modify Strings
+- PHP has a set of built-in functions that you can use to modify strings.
