@@ -769,3 +769,5 @@ echo strtolower($x);
 ```
 ## Replace String
 - The PHP str_replace() function replaces some characters with some other characters in a string.
+## Example
+- Replace the text "World" with "Dolly":
