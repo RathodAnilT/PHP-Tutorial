@@ -787,3 +787,7 @@ echo strrev($x);
 - Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
 ## Example
 - The trim() removes any whitespace from the beginning or the end:
+```
+$x = " Hello World! ";
+echo trim($x);
+```
