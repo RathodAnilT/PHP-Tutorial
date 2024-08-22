@@ -753,3 +753,4 @@ echo strpos("Hello world!", "world");
 - The PHP string reference contains description and example of use, for each function!
 ## PHP - Modify Strings
 - PHP has a set of built-in functions that you can use to modify strings.
+## Upper Case
