@@ -777,3 +777,5 @@ echo str_replace("World", "Dolly", $x)
 ```
 ## Reverse a String
 - The PHP strrev() function reverses a string.
+## Example
+- Reverse the string "Hello World!":
