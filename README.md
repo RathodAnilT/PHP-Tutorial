@@ -761,3 +761,9 @@ $x = "Hello World!";
 echo strtoupper($x);
 ```
 ## Lower Case
+## Example
+- The strtolower() function returns the string in lower case:
+```
+$x = "Hello World!";
+echo strtolower($x);
+```
