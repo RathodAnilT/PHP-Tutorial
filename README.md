@@ -754,3 +754,9 @@ echo strpos("Hello world!", "world");
 ## PHP - Modify Strings
 - PHP has a set of built-in functions that you can use to modify strings.
 ## Upper Case
+## Example
+- The strtoupper() function returns the string in upper case:
+```
+$x = "Hello World!";
+echo strtoupper($x);
+```
