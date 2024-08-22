@@ -760,3 +760,4 @@ echo strpos("Hello world!", "world");
 $x = "Hello World!";
 echo strtoupper($x);
 ```
+## Lower Case
