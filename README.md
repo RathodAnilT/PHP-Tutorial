@@ -767,3 +767,4 @@ echo strtoupper($x);
 $x = "Hello World!";
 echo strtolower($x);
 ```
+## Replace String
