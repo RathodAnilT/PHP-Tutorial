@@ -791,3 +791,4 @@ echo strrev($x);
 $x = " Hello World! ";
 echo trim($x);
 ```
+## Convert String into Array
