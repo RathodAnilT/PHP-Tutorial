@@ -795,3 +795,4 @@ echo trim($x);
 - The PHP explode() function splits a string into an array.
 
 - The first parameter of the explode() function represents the "separator". The "separator" specifies where to split the string.
+## Note: The separator is required.
