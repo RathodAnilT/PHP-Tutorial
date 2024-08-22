@@ -783,3 +783,4 @@ echo str_replace("World", "Dolly", $x)
 $x = "Hello World!";
 echo strrev($x);
 ```
+## Remove Whitespace
