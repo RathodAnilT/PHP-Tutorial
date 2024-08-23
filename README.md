@@ -841,3 +841,6 @@ echo substr($x, -5, 3);
 ## Negative Length
 - Use negative length to specify how many characters to omit, starting from the end of the string:
 ## Example
+- From the string "Hi, how are you?", get the characters starting from index 5, and continue until you reach the 3. character from the end (index -3).
+
+- Should end up with "ow are y":
