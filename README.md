@@ -816,3 +816,4 @@ Array ( [0] => Hello [1] => World! )
 ## Slicing
 - You can return a range of characters by using the substr() function.
 - Specify the start index and the number of characters you want to return.
+## Example
