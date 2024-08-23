@@ -849,3 +849,4 @@ $x = "Hi, how are you?";
 echo substr($x, 5, -3);
 ```
 ## Complete PHP String Reference
+- For a complete reference of all string functions, go to our complete PHP String Reference.
