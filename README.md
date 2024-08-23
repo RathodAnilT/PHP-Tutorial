@@ -834,3 +834,7 @@ echo substr($x, 6);
 - Use negative indexes to start the slice from the end of the string:
 ## Example
 - Get the 3 characters, starting from the "o" in world (index -5):
+```
+$x = "Hello World!";
+echo substr($x, -5, 3);
+```
