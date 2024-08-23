@@ -814,3 +814,4 @@ Array ( [0] => Hello [1] => World! )
 - For a complete reference of all string functions, go to our complete PHP String Reference.
 ## PHP - Slicing Strings
 ## Slicing
+- You can return a range of characters by using the substr() function.
