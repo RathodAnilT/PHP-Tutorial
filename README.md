@@ -812,3 +812,4 @@ Array ( [0] => Hello [1] => World! )
 ```
 ## Complete PHP String Reference
 - For a complete reference of all string functions, go to our complete PHP String Reference.
+## PHP - Slicing Strings
