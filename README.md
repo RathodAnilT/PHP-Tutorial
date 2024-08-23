@@ -848,3 +848,4 @@ echo substr($x, -5, 3);
 $x = "Hi, how are you?";
 echo substr($x, 5, -3);
 ```
+## Complete PHP String Reference
