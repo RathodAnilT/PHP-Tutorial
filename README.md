@@ -824,3 +824,4 @@ echo substr($x, 6, 5);
 ```
 ## Slice to the End
 - By leaving out the length parameter, the range will go to the end:
+## Example
