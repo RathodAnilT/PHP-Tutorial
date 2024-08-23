@@ -839,3 +839,4 @@ $x = "Hello World!";
 echo substr($x, -5, 3);
 ```
 ## Negative Length
+- Use negative length to specify how many characters to omit, starting from the end of the string:
