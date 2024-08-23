@@ -844,3 +844,7 @@ echo substr($x, -5, 3);
 - From the string "Hi, how are you?", get the characters starting from index 5, and continue until you reach the 3. character from the end (index -3).
 
 - Should end up with "ow are y":
+```
+$x = "Hi, how are you?";
+echo substr($x, 5, -3);
+```
