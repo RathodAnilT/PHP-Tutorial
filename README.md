@@ -822,3 +822,4 @@ Array ( [0] => Hello [1] => World! )
 $x = "Hello World!";
 echo substr($x, 6, 5);
 ```
+## Slice to the End
