@@ -890,3 +890,4 @@ $x = "We are the so-called \"Vikings\" from the north.";
   - Infinity
   - NaN
 - Variables of numeric types are created when you assign a value to them:
+## Example
