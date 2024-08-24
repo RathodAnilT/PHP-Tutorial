@@ -891,3 +891,8 @@ $x = "We are the so-called \"Vikings\" from the north.";
   - NaN
 - Variables of numeric types are created when you assign a value to them:
 ## Example
+```
+$a = 5;
+$b = 5.34;
+$c = "25";
+```
