@@ -860,3 +860,6 @@ $x = "We are the so-called "Vikings" from the north.";
 ```
 - To fix this problem, use the escape character \":
 ## Example
+```
+$x = "We are the so-called \"Vikings\" from the north.";
+```
