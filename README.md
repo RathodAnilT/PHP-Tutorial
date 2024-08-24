@@ -865,3 +865,15 @@ $x = "We are the so-called \"Vikings\" from the north.";
 ```
 ## Escape Characters
 - Other escape characters used in PHP:
+
+| Escape Character | Result            | Description         |
+|------------------|-------------------|---------------------|
+| `\'`             | Single Quote      | Escapes a single quote in a string  |
+| `\"`             | Double Quote      | Escapes a double quote in a string  |
+| `\$`             | PHP Variables     | Escapes the dollar sign to prevent variable interpolation  |
+| `\n`             | New Line          | Inserts a new line (line break)     |
+| `\r`             | Carriage Return   | Inserts a carriage return           |
+| `\t`             | Tab               | Inserts a tab space                 |
+| `\f`             | Form Feed         | Inserts a form feed (new page in printers) |
+| `\ooo`           | Octal Value       | Represents a character in octal     |
+| `\xhh`           | Hex Value         | Represents a character in hexadecimal |
