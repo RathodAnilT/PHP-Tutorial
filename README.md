@@ -885,3 +885,7 @@ $x = "We are the so-called \"Vikings\" from the north.";
    - Integer
    - Float
    - Number Strings
+- In addition, PHP has two more data types used for numbers:
+
+  - Infinity
+  - NaN
