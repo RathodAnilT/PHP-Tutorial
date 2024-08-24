@@ -897,3 +897,9 @@ $b = 5.34;
 $c = "25";
 ```
 - To verify the type of any object in PHP, use the var_dump() function:
+## Example
+```
+var_dump($a);
+var_dump($b);
+var_dump($c);
+```
