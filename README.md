@@ -879,3 +879,4 @@ $x = "We are the so-called \"Vikings\" from the north.";
 | `\xhh`           | Hex Value         | Represents a character in hexadecimal |
 
 ## PHP Numbers
+- In this chapter we will look in depth into Integers, Floats, and Number Strings.
