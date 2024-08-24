@@ -852,3 +852,4 @@ echo substr($x, 5, -3);
 - For a complete reference of all string functions, go to our complete PHP String Reference.
 ## PHP - Escape Characters
 - To insert characters that are illegal in a string, use an escape character.
+- An escape character is a backslash \ followed by the character you want to insert.
