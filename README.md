@@ -882,6 +882,6 @@ $x = "We are the so-called \"Vikings\" from the north.";
 - In this chapter we will look in depth into Integers, Floats, and Number Strings.
 - There are three main numeric types in PHP:
 
-  -Integer
-  -Float
-  -Number Strings
+   - Integer
+   - Float
+   - Number Strings
