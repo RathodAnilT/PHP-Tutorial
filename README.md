@@ -864,3 +864,4 @@ $x = "We are the so-called "Vikings" from the north.";
 $x = "We are the so-called \"Vikings\" from the north.";
 ```
 ## Escape Characters
+- Other escape characters used in PHP:
