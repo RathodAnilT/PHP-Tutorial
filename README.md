@@ -896,3 +896,4 @@ $a = 5;
 $b = 5.34;
 $c = "25";
 ```
+- To verify the type of any object in PHP, use the var_dump() function:
