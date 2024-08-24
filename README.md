@@ -877,3 +877,5 @@ $x = "We are the so-called \"Vikings\" from the north.";
 | `\f`             | Form Feed         | Inserts a form feed (new page in printers) |
 | `\ooo`           | Octal Value       | Represents a character in octal     |
 | `\xhh`           | Hex Value         | Represents a character in hexadecimal |
+
+## PHP Numbers
