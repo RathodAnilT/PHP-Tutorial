@@ -915,3 +915,6 @@ var_dump($c);
   - An integer can be either positive or negative
   - Integers can be specified in three formats: decimal (base 10), hexadecimal (base 16 - prefixed with 0x), octal (base 8 - prefixed with 0) or binary (base 2 - prefixed with 0b)
 - PHP has the following predefined constants for integers:
+  - PHP_INT_MAX - The largest integer supported
+  - PHP_INT_MIN - The smallest integer supported
+  - PHP_INT_SIZE -  The size of an integer in bytes
