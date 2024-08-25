@@ -924,3 +924,10 @@ var_dump($c);
   - is_long() - alias of is_int()
 ## Example
 - Check if the type of a variable is integer:
+```
+$x = 5985;
+var_dump(is_int($x));
+
+$x = 59.85;
+var_dump(is_int($x))
+```
