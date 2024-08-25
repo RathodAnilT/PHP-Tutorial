@@ -923,3 +923,4 @@ var_dump($c);
   - is_integer() - alias of is_int()
   - is_long() - alias of is_int()
 ## Example
+- Check if the type of a variable is integer:
