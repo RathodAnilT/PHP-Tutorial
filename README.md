@@ -910,3 +910,4 @@ var_dump($c);
   systems. A value greater (or lower) than this, will be stored as float, because it exceeds the limit of an integer.
 - Note: Another important thing to know is that even if 4 * 2.5 is 10, the result is stored as float, because one of the operands is a float (2.5).
 - Here are some rules for integers:
+  - An integer must have at least one digit
