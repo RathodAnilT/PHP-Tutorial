@@ -922,3 +922,4 @@ var_dump($c);
   - is_int()
   - is_integer() - alias of is_int()
   - is_long() - alias of is_int()
+## Example
