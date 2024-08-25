@@ -904,3 +904,4 @@ var_dump($b);
 var_dump($c);
 ```
 ## PHP Integers
+- 2, 256, -256, 10358, -179567 are all integers.
