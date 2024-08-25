@@ -913,3 +913,4 @@ var_dump($c);
   - An integer must have at least one digit
   - An integer must NOT have a decimal point
   - An integer can be either positive or negative
+  - Integers can be specified in three formats: decimal (base 10), hexadecimal (base 16 - prefixed with 0x), octal (base 8 - prefixed with 0) or binary (base 2 - prefixed with 0b)
