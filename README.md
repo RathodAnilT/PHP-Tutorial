@@ -911,3 +911,4 @@ var_dump($c);
 - Note: Another important thing to know is that even if 4 * 2.5 is 10, the result is stored as float, because one of the operands is a float (2.5).
 - Here are some rules for integers:
   - An integer must have at least one digit
+  - An integer must NOT have a decimal point
