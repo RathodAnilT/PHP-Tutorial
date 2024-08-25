@@ -933,3 +933,4 @@ var_dump(is_int($x))
 ```
 ## PHP Floats
 - A float is a number with a decimal point or a number in exponential form.
+- 2.0, 256.4, 10.358, 7.64E+5, 5.56E-5 are all floats.
