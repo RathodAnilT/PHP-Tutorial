@@ -912,3 +912,4 @@ var_dump($c);
 - Here are some rules for integers:
   - An integer must have at least one digit
   - An integer must NOT have a decimal point
+  - An integer can be either positive or negative
