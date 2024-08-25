@@ -918,3 +918,4 @@ var_dump($c);
   - PHP_INT_MAX - The largest integer supported
   - PHP_INT_MIN - The smallest integer supported
   - PHP_INT_SIZE -  The size of an integer in bytes
+- has the following functions to check if the type of a variable is integer:
