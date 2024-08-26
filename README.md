@@ -951,3 +951,4 @@ $x = 10.365;
 var_dump(is_float($x));
 ```
 ## PHP Infinity
+- A numeric value that is larger than PHP_FLOAT_MAX is considered infinite.
