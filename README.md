@@ -972,3 +972,7 @@ var_dump($x);
 - However, the PHP var_dump() function returns the data type and value:
 ## Example
 - Invalid calculation will return a NaN value:
+```
+$x = acos(8);
+var_dump($x);
+```
