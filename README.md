@@ -966,3 +966,4 @@ var_dump($x);
 ```
 ## PHP NaN
 - NaN stands for Not a Number.
+- NaN is used for impossible mathematical operations.
