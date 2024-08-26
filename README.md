@@ -945,3 +945,4 @@ var_dump(is_int($x))
 is_double() - alias of is_float()
 
 ## Example
+- Check if the type of a variable is float:
