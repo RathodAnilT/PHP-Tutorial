@@ -938,3 +938,4 @@ var_dump(is_int($x))
 - PHP has the following predefined constants for floats (from PHP 7.2):
     - PHP_FLOAT_MAX - The largest representable floating point number
     - PHP_FLOAT_MIN - The smallest representable positive floating point number
+    - PHP_FLOAT_DIG - The number of decimal digits that can be rounded into a float and back without precision loss
