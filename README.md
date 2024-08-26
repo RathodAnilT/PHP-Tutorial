@@ -959,3 +959,4 @@ is_infinite()
 ```
 - However, the PHP var_dump() function returns the data type and value:
 ## Example
+- Check if a numeric value is finite or infinite:
