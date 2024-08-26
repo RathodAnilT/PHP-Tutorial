@@ -965,3 +965,4 @@ is_infinite()
 var_dump($x);
 ```
 ## PHP NaN
+- NaN stands for Not a Number.
