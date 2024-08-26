@@ -950,3 +950,4 @@ is_double() - alias of is_float()
 $x = 10.365;
 var_dump(is_float($x));
 ```
+## PHP Infinity
