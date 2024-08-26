@@ -970,3 +970,4 @@ var_dump($x);
 - PHP has the following functions to check if a value is not a number:
    - is_nan()
 - However, the PHP var_dump() function returns the data type and value:
+## Example
