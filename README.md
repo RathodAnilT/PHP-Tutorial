@@ -958,3 +958,4 @@ is_finite()
 is_infinite()
 ```
 - However, the PHP var_dump() function returns the data type and value:
+## Example
