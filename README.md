@@ -976,3 +976,4 @@ var_dump($x);
 $x = acos(8);
 var_dump($x);
 ```
+## PHP Numerical Strings
