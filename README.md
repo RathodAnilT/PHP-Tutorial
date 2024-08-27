@@ -978,3 +978,4 @@ var_dump($x);
 ```
 ## PHP Numerical Strings
 - The PHP is_numeric() function can be used to find whether a variable is numeric. The function returns true if the variable is a number or a numeric string, false otherwise.
+## Example
