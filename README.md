@@ -996,3 +996,4 @@ var_dump(is_numeric($x));
 - Sometimes you need to cast a numerical value into another data type.
 - The (int), (integer), and intval() functions are often used to convert a value to an integer.
 ## Example
+- Cast float and string to integer:
