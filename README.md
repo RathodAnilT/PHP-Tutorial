@@ -992,3 +992,4 @@ var_dump(is_numeric($x));
 $x = "Hello";
 var_dump(is_numeric($x));
 ```
+## PHP Casting Strings and Floats to Integers
