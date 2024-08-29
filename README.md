@@ -1016,3 +1016,4 @@ echo $int_cast;
 - Casting in PHP is done with these statements:
     - (string) - Converts to data type String
     - (int) - Converts to data type Integer
+    - (float) - Converts to data type Float
