@@ -1018,3 +1018,4 @@ echo $int_cast;
     - (int) - Converts to data type Integer
     - (float) - Converts to data type Float
     - (bool) - Converts to data type Boolean
+    - (array) - Converts to data type Array
