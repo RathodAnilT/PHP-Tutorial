@@ -1046,3 +1046,4 @@ var_dump($e);
 ```
 ## Cast to Integer
 - To cast to integer, use the (int) statement:
+## Example
