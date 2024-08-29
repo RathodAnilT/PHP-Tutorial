@@ -1085,3 +1085,4 @@ $f = (float) $f;
 $g = (float) $g;
 ```
 ## Cast to Boolean
+- To cast to boolean, use the (bool) statement:
