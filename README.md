@@ -1023,3 +1023,4 @@ echo $int_cast;
     - (unset) - Converts to data type NULL
 ## Cast to String
 - To cast to string, use the (string) statement:
+## Example
