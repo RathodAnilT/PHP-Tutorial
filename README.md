@@ -1064,4 +1064,4 @@ $e = (int) $e;
 $f = (int) $f;
 $g = (int) $g;
 ```
-
+## Cast to Float
