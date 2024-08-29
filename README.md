@@ -1014,3 +1014,4 @@ echo $int_cast;
 - Sometimes you need to change a variable from one data type into another, and sometimes you want a variable to have a specific data type. This can be done with casting.
 ## Change Data Type
 - Casting in PHP is done with these statements:
+    - (string) - Converts to data type String
