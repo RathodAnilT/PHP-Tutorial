@@ -1108,3 +1108,6 @@ $g = (bool) $g;
 $h = (bool) $h;
 $i = (bool) $i;
 ```
+- If a value is 0, NULL, false, or empty, the (bool) converts it into false, otherwise true.
+
+- Even -1 converts to true.
