@@ -1113,3 +1113,4 @@ $i = (bool) $i;
 - Even -1 converts to true.
 ## Cast to Array
 - To cast to array, use the (array) statement:
+## Example
