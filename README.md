@@ -1084,3 +1084,4 @@ $e = (float) $e;
 $f = (float) $f;
 $g = (float) $g;
 ```
+## Cast to Boolean
