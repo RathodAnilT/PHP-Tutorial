@@ -1015,3 +1015,4 @@ echo $int_cast;
 ## Change Data Type
 - Casting in PHP is done with these statements:
     - (string) - Converts to data type String
+    - (int) - Converts to data type Integer
