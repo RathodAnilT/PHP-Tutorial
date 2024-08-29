@@ -1066,3 +1066,4 @@ $g = (int) $g;
 ```
 ## Cast to Float
 - To cast to float, use the (float) statement:
+## Example
