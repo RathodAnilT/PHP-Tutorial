@@ -1021,3 +1021,4 @@ echo $int_cast;
     - (array) - Converts to data type Array
     - (object) - Converts to data type Object
     - (unset) - Converts to data type NULL
+## Cast to String
