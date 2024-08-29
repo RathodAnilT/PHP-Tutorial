@@ -1044,3 +1044,4 @@ var_dump($c);
 var_dump($d);
 var_dump($e);
 ```
+## Cast to Integer
