@@ -1129,3 +1129,4 @@ $e = (array) $e;
 ```
 - When converting into arrays, most data types converts into an indexed array with one element.
 - NULL values converts to an empty array object.
+- Objects converts into associative arrays where the property names becomes the keys and the property values becomes the values:
