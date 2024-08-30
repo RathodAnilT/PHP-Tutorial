@@ -1128,3 +1128,4 @@ $d = (array) $d;
 $e = (array) $e;
 ```
 - When converting into arrays, most data types converts into an indexed array with one element.
+- NULL values converts to an empty array object.
