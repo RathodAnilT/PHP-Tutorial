@@ -1151,3 +1151,4 @@ $myCar = (array) $myCar;
 var_dump($myCar);
 ```
 ## Cast to Object
+- To cast to object, use the (object) statement:
