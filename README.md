@@ -1173,3 +1173,10 @@ $e = (object) $e;
 - Associative arrays converts into objects with the keys as property names and values as property values.
 ## Example
 - Converting Arrays into Objects:
+```
+  $a = array("Volvo", "BMW", "Toyota"); // indexed array
+$b = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43"); // associative array
+
+$a = (object) $a;
+$b = (object) $b;
+```
