@@ -1169,3 +1169,4 @@ $e = (object) $e;
 ```
 - When converting into objects, most data types converts into a object with one property, named "scalar", with the corresponding value.
 - NULL values converts to an empty object.
+- Indexed arrays converts into objects with the index number as property name and the value as property value.
