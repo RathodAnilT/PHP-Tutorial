@@ -1167,3 +1167,4 @@ $c = (object) $c;
 $d = (object) $d;
 $e = (object) $e;
 ```
+- When converting into objects, most data types converts into a object with one property, named "scalar", with the corresponding value.
