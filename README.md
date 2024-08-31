@@ -1172,3 +1172,4 @@ $e = (object) $e;
 - Indexed arrays converts into objects with the index number as property name and the value as property value.
 - Associative arrays converts into objects with the keys as property names and values as property values.
 ## Example
+- Converting Arrays into Objects:
