@@ -1150,3 +1150,4 @@ $myCar = new Car("red", "Volvo");
 $myCar = (array) $myCar;
 var_dump($myCar);
 ```
+## Cast to Object
