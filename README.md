@@ -1182,3 +1182,4 @@ $b = (object) $b;
 ```
 ## Cast to NULL
 - To cast to NULL, use the (unset) statement:
+## Example
