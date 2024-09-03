@@ -1196,3 +1196,4 @@ $c = (unset) $c;
 $d = (unset) $d;
 $e = (unset) $e;
 ```
+## PHP Math
