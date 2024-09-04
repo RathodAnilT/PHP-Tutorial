@@ -1212,3 +1212,4 @@ echo(min(0, 150, 30, 20, -8, -200));
 echo(max(0, 150, 30, 20, -8, -200));
 ```
 ## PHP abs() Function
+- The abs() function returns the absolute (positive) value of a number:
