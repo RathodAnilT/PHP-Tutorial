@@ -1207,3 +1207,7 @@ echo(pi());
 ## PHP min() and max() Functions
 - The min() and max() functions can be used to find the lowest or highest value in a list of arguments:
 ## Example
+```
+echo(min(0, 150, 30, 20, -8, -200));
+echo(max(0, 150, 30, 20, -8, -200));
+```
