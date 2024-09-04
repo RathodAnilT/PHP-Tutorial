@@ -1204,3 +1204,4 @@ $e = (unset) $e;
 ```
 echo(pi());
 ```
+## PHP min() and max() Functions
