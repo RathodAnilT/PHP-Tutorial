@@ -1225,3 +1225,4 @@ echo(sqrt(64));
 ```
 - PHP round() Function
 - The round() function rounds a floating-point number to its nearest integer:
+## Example
