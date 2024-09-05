@@ -1224,3 +1224,4 @@ The sqrt() function returns the square root of a number:
 echo(sqrt(64));
 ```
 - PHP round() Function
+- The round() function rounds a floating-point number to its nearest integer:
