@@ -1230,3 +1230,4 @@ echo(sqrt(64));
 echo(round(0.60));
 echo(round(0.49));
 ```
+## Random Numbers
