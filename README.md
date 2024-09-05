@@ -1219,3 +1219,4 @@ echo(abs(-6.7));
 ```
 ## PHP sqrt() Function
 The sqrt() function returns the square root of a number:
+## Example
