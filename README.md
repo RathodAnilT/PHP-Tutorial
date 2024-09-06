@@ -1233,3 +1233,6 @@ echo(round(0.49));
 ## Random Numbers
 - The rand() function generates a random number:
 ## Example
+```
+echo(rand());
+```
