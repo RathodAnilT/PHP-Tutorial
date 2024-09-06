@@ -1242,3 +1242,4 @@ echo(rand());
 ```
 echo(rand(10, 100));
 ```
+- Complete PHP Math Reference
