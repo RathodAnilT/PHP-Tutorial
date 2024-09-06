@@ -1236,3 +1236,4 @@ echo(round(0.49));
 ```
 echo(rand());
 ```
+- To get more control over the random number, you can add the optional min and max parameters to specify the lowest integer and the highest integer to be returned.
