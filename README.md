@@ -1242,4 +1242,7 @@ echo(rand());
 ```
 echo(rand(10, 100));
 ```
-- Complete PHP Math Reference
+## Complete PHP Math Reference
+- For a complete reference of all math functions, go to our complete PHP Math Reference.
+
+- The PHP math reference contains description and example of use, for each function.
