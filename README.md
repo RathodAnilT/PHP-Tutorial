@@ -1254,3 +1254,5 @@ echo(rand(10, 100));
 
 
 - Note: Unlike variables, constants are automatically global across the entire script.
+
+## Create a PHP Constant
