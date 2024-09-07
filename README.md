@@ -1249,3 +1249,4 @@ echo(rand(10, 100));
 ## PHP Constants
 - Constants are like variables, except that once they are defined they cannot be changed or undefined.
 ## PHP Constants
+- A constant is an identifier (name) for a simple value. The value cannot be changed during the script.
