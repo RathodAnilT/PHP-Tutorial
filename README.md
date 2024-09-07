@@ -1247,3 +1247,4 @@ echo(rand(10, 100));
 
 - The PHP math reference contains description and example of use, for each function.
 ## PHP Constants
+- Constants are like variables, except that once they are defined they cannot be changed or undefined.
