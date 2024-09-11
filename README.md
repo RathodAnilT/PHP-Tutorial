@@ -1258,3 +1258,6 @@ echo(rand(10, 100));
 ## Create a PHP Constant
 - To create a constant, use the define() function.
 ## Syntax
+```
+define(name, value);
+```
