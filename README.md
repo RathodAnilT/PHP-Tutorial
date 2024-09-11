@@ -1261,3 +1261,4 @@ echo(rand(10, 100));
 ```
 define(name, value);
 ```
+## Parameters:
