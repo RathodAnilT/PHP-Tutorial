@@ -1262,3 +1262,4 @@ echo(rand(10, 100));
 define(name, value);
 ```
 ## Parameters:
+  - name: Specifies the name of the constant
