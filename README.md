@@ -1271,3 +1271,4 @@ define("GREETING", "Welcome to W3Schools.com!");
 echo GREETING;
 ```
 ## PHP const Keyword
+- You can also create a constant by using the const keyword.
