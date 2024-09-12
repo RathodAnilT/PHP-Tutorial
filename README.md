@@ -1270,3 +1270,4 @@ define(name, value);
 define("GREETING", "Welcome to W3Schools.com!");
 echo GREETING;
 ```
+## PHP const Keyword
