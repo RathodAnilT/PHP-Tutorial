@@ -1264,3 +1264,4 @@ define(name, value);
 ## Parameters:
   - name: Specifies the name of the constant
   - value: Specifies the value of the constant
+## Example
