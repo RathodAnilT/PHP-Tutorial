@@ -1266,3 +1266,7 @@ define(name, value);
   - value: Specifies the value of the constant
 ## Example
 - Create a constant with a case-sensitive name:
+```
+define("GREETING", "Welcome to W3Schools.com!");
+echo GREETING;
+```
