@@ -1265,3 +1265,4 @@ define(name, value);
   - name: Specifies the name of the constant
   - value: Specifies the value of the constant
 ## Example
+- Create a constant with a case-sensitive name:
