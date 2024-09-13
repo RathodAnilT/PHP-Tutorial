@@ -1274,3 +1274,7 @@ echo GREETING;
 - You can also create a constant by using the const keyword.
 ## Example
 - Create a case-sensitive constant with the const keyword:
+```
+const MYCAR = "Volvo";
+echo MYCAR;
+```
