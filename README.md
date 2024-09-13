@@ -1279,3 +1279,4 @@ const MYCAR = "Volvo";
 echo MYCAR;
 ```
 ## PHP Constant Arrays
+- From PHP7, you can create an Array constant using the define() function.
