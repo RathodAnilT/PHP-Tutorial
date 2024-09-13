@@ -1278,3 +1278,4 @@ echo GREETING;
 const MYCAR = "Volvo";
 echo MYCAR;
 ```
+## PHP Constant Arrays
