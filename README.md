@@ -1281,3 +1281,4 @@ echo MYCAR;
 ## PHP Constant Arrays
 - From PHP7, you can create an Array constant using the define() function.
 ## Example
+- Create an Array constant:
