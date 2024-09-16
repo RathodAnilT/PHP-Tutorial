@@ -1292,3 +1292,4 @@ echo cars[0];
 ```
 ## Constants are Global
 - Constants are automatically global and can be used across the entire script.
+## Example
