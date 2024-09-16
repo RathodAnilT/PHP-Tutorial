@@ -1290,3 +1290,4 @@ define("cars", [
 ]);
 echo cars[0];
 ```
+## Constants are Global
