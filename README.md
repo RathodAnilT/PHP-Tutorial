@@ -1293,3 +1293,12 @@ echo cars[0];
 ## Constants are Global
 - Constants are automatically global and can be used across the entire script.
 ## Example
+```
+define("GREETING", "Welcome to W3Schools.com!");
+
+function myTest() {
+  echo GREETING;
+}
+
+myTest();
+```
