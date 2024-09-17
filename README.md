@@ -1305,3 +1305,4 @@ myTest();
 ## PHP Magic Constants
 
 ## PHP Predefined Constants
+- PHP has nine predefined constants that change value depending on where they are used, and therefor they are called "magic constants".
