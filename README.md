@@ -1302,3 +1302,4 @@ function myTest() {
 
 myTest();
 ```
+## PHP Magic Constants
