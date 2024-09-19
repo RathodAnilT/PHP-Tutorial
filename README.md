@@ -1327,3 +1327,4 @@ myTest();
 - The magic constants are case-insensitive, meaning __LINE__ returns the same as __line__.
   
 ## PHP Operators
+- Operators are used to perform operations on variables and values.
