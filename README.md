@@ -1321,3 +1321,7 @@ myTest();
 | `__NAMESPACE__`     | If used inside a namespace, the name of the namespace is returned.          |
 | `__TRAIT__`         | If used inside a trait, the trait name is returned.                         |
 | `ClassName::class`  | Returns the name of the specified class and the name of the namespace, if any. |
+
+## Note:
+
+- The magic constants are case-insensitive, meaning __LINE__ returns the same as __line__.
