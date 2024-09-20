@@ -1338,3 +1338,4 @@ myTest();
 - Array operators
 - Conditional assignment operators
 ## PHP Arithmetic Operators
+- The PHP arithmetic operators are used with numeric values to perform common arithmetical operations, such as addition, subtraction, multiplication etc.
