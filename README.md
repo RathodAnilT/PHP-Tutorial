@@ -1361,3 +1361,5 @@ myTest();
 | `x *= y`   | `x = x * y`  | Multiplication                                      |
 | `x /= y`   | `x = x / y`  | Division                                            |
 | `x %= y`   | `x = x % y`  | Modulus                                             |
+
+## PHP Comparison Operators
