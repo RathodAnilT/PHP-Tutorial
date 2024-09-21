@@ -1363,3 +1363,4 @@ myTest();
 | `x %= y`   | `x = x % y`  | Modulus                                             |
 
 ## PHP Comparison Operators
+- The PHP comparison operators are used to compare two values (number or string):
