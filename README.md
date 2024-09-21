@@ -1350,3 +1350,4 @@ myTest();
 | `**`           | Exponentiation  | `$x ** $y`  | Result of raising `$x` to the `$y`'th power |
 
 ## PHP Assignment Operators
+- The PHP assignment operators are used with numeric values to write a value to a variable.
