@@ -1377,3 +1377,5 @@ myTest();
 | `>=`     | Greater than or equal to     | `$x >= $y`   | Returns true if `$x` is greater than or equal to `$y`                  |
 | `<=`     | Less than or equal to        | `$x <= $y`   | Returns true if `$x` is less than or equal to `$y`                     |
 | `<=>`    | Spaceship                    | `$x <=> $y`  | Returns an integer: -1 if `$x` < `$y`, 0 if equal, 1 if `$x` > `$y`    |
+
+## PHP Increment / Decrement Operators
