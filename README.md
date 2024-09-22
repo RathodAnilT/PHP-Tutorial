@@ -1396,3 +1396,5 @@ myTest();
 | &&       | And  | $x && $y     | True if both $x and $y are true            |
 | ||       | Or   | $x || $y     | True if either $x or $y is true            |
 | !        | Not  | !$x          | True if $x is not true                     |
+
+## PHP String Operators
