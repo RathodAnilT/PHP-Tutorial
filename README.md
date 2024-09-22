@@ -1387,3 +1387,4 @@ myTest();
 | $x--    | Post-decrement  | Returns $x, then decrements $x by one           |
 
 ## PHP Logical Operators
+- The PHP logical operators are used to combine conditional statements.
