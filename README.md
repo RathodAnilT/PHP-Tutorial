@@ -1379,3 +1379,9 @@ myTest();
 | `<=>`    | Spaceship                    | `$x <=> $y`  | Returns an integer: -1 if `$x` < `$y`, 0 if equal, 1 if `$x` > `$y`    |
 
 ## PHP Increment / Decrement Operators
+| Operator | Same as...     | Description                                      |
+|----------|----------------|--------------------------------------------------|
+| ++$x    | Pre-increment   | Increments $x by one, then returns $x           |
+| $x++    | Post-increment  | Returns $x, then increments $x by one           |
+| --$x    | Pre-decrement   | Decrements $x by one, then returns $x           |
+| $x--    | Post-decrement  | Returns $x, then decrements $x by one           |
