@@ -1410,6 +1410,7 @@ myTest();
 
 ## PHP Array Operators
 - The PHP array operators are used to compare arrays.
+  
 
   | **Operator** | **Name**     | **Example**    | **Result**                                                         |
 |--------------|--------------|----------------|--------------------------------------------------------------------|
