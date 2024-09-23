@@ -1388,6 +1388,8 @@ myTest();
 
 ## PHP Logical Operators
 - The PHP logical operators are used to combine conditional statements.
+
+  
 | Operator | Name | Example       | Result                                      |
 |----------|------|---------------|---------------------------------------------|
 | and      | And  | $x and $y    | True if both $x and $y are true            |
