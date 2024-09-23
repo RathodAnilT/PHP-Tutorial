@@ -1400,3 +1400,10 @@ myTest();
 | !        | Not  | !$x          | True if $x is not true                     |
 
 ## PHP String Operators
+
+
+| **Operator** | **Name**                | **Example**     | **Result**                             |
+|--------------|-------------------------|-----------------|----------------------------------------|
+| `.`          | Concatenation            | `$txt1 . $txt2` | Concatenation of `$txt1` and `$txt2`   |
+| `.= `        | Concatenation assignment | `$txt1 .= $txt2`| Appends `$txt2` to `$txt1`             |
+
