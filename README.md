@@ -1420,3 +1420,8 @@ myTest();
 | `<>`         | Inequality   | `$x <> $y`     | Returns true if `$x` is not equal to `$y`                          |
 | `!==`        | Non-identity | `$x !== $y`    | Returns true if `$x` is not identical to `$y`                      |
 
+
+## PHP Conditional Assignment Operators
+- The PHP conditional assignment operators are used to set a value depending on conditions:
+
+
