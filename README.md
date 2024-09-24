@@ -1437,3 +1437,4 @@ myTest();
 - Conditional statements are used to perform different actions based on different conditions.
 ## PHP Conditional Statements
 - Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this.
+- In PHP we have the following conditional statements:
