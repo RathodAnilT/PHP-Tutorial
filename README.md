@@ -1438,3 +1438,4 @@ myTest();
 ## PHP Conditional Statements
 - Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this.
 - In PHP we have the following conditional statements:
+- if statement - executes some code if one condition is true
