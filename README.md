@@ -19,6 +19,7 @@ echo "My first PHP script!";
 </html>
 
 ```
+## Example
 ## PHP Introduction
 
 #  What You Should Already Know
