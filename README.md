@@ -1456,3 +1456,4 @@ if (5 > 3) {
   echo "Have a good day!";
 }
 ```
+- We can also use variables in the if statement:
