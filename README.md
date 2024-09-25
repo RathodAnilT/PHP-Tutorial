@@ -1459,4 +1459,5 @@ if (5 > 3) {
 ```
 - We can also use variables in the if statement:
 
-  ## Example
+## Example
+- Output "Have a good day!" if $t is less than 20:
