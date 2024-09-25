@@ -1443,3 +1443,9 @@ myTest();
      - if...elseif...else statement - executes different codes for more than two conditions
        switch statement - selects one of many blocks of code to be executed
 ## PHP - The if Statement
+- Syntax
+```
+if (condition) {
+  // code to be executed if condition is true;
+}
+```
