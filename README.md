@@ -1458,3 +1458,5 @@ if (5 > 3) {
 }
 ```
 - We can also use variables in the if statement:
+
+  ## Example
