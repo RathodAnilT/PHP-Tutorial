@@ -1451,3 +1451,8 @@ if (condition) {
 ```
 ## Example
 - Output "Have a good day!" if 5 is larger than 3:
+```
+if (5 > 3) {
+  echo "Have a good day!";
+}
+```
