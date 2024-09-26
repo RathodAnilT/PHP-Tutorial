@@ -1461,11 +1461,11 @@ if (5 > 3) {
 
 ## Example
 - Output "Have a good day!" if $t is less than 20:
----
-$t = 14;
 
+```
+$t = 14;
 if ($t < 20) {
   echo "Have a good day!";
 }
----
+```
 ## PHP if Operators
