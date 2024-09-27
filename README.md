@@ -1475,3 +1475,10 @@ if ($t < 20) {
 
 ## Example
 - Check if $t is equal to 14:
+```
+$t = 14;
+
+if ($t == 14) {
+  echo "Have a good day!";
+}
+```
