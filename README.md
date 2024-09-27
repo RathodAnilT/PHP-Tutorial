@@ -1469,3 +1469,6 @@ if ($t < 20) {
 }
 ```
 ## PHP if Operators
+
+## Comparison Operators
+- If statements usually contain conditions that compare two values.
