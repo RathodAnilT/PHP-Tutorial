@@ -1474,3 +1474,4 @@ if ($t < 20) {
 - If statements usually contain conditions that compare two values.
 
 ## Example
+- Check if $t is equal to 14:
