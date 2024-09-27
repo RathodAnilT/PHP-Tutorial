@@ -1472,3 +1472,5 @@ if ($t < 20) {
 
 ## Comparison Operators
 - If statements usually contain conditions that compare two values.
+
+## Example
