@@ -1483,3 +1483,4 @@ if ($t == 14) {
 }
 ```
 - To compare two values, we need to use a comparison operator.
+- Here are the PHP comparison operators to use in if statements:
