@@ -1482,3 +1482,4 @@ if ($t == 14) {
   echo "Have a good day!";
 }
 ```
+- To compare two values, we need to use a comparison operator.
