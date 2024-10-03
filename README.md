@@ -1526,3 +1526,10 @@ if ($a > $b && $a < $c ) {
 - We can compare as many conditions as we like in one if statement:
 ## Example
 - Check if $a is either 2, 3, 4, 5, 6, or 7:
+```
+$a = 5;
+
+if ($a == 2 || $a == 3 || $a == 4 || $a == 5 || $a == 6 || $a == 7) {
+  echo "$a is a number between 2 and 7";
+}
+```
