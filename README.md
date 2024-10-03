@@ -1524,3 +1524,5 @@ if ($a > $b && $a < $c ) {
 | !        | Not  | True if the condition is not true                |
 
 - We can compare as many conditions as we like in one if statement:
+## Example
+- Check if $a is either 2, 3, 4, 5, 6, or 7:
