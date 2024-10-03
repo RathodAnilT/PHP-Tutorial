@@ -1512,3 +1512,4 @@ if ($a > $b && $a < $c ) {
   echo "Both conditions are true";
 }
 ```
+- Here are the PHP logical operators to use in if statements:
