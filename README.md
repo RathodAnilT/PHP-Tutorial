@@ -1513,3 +1513,13 @@ if ($a > $b && $a < $c ) {
 }
 ```
 - Here are the PHP logical operators to use in if statements:
+
+| Operator | Name | Description                                      |
+|----------|------|--------------------------------------------------|
+| and      | And  | True if both conditions are true                 |
+| &&       | And  | True if both conditions are true                 |
+| or       | Or   | True if either condition is true                 |
+| ||       | Or   | True if either condition is true                 |
+| xor      | Xor  | True if either condition is true, but not both   |
+| !        | Not  | True if the condition is not true                |
+
