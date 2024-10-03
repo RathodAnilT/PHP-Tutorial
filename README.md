@@ -1500,3 +1500,6 @@ if ($t == 14) {
 
 ## Logical Operators
 - To check more than one condition, we can use logical operators, like the && operator:
+
+## Example
+- Check if $a is greater than $b, AND if $a is less than $c:
