@@ -1497,3 +1497,6 @@ if ($t == 14) {
 | >=       | Greater than or equal to | Returns true if the first value is greater than, or equal to, the second value |
 | <=       | Less than or equal to    | Returns true if the first value is less than, or equal to, the second value    |
 
+
+## Logical Operators
+- To check more than one condition, we can use logical operators, like the && operator:
