@@ -1484,3 +1484,16 @@ if ($t == 14) {
 ```
 - To compare two values, we need to use a comparison operator.
 - Here are the PHP comparison operators to use in if statements:
+
+| Operator | Name                     | Result                                                         |
+|----------|--------------------------|----------------------------------------------------------------|
+| ==       | Equal                    | Returns true if the values are equal                            |
+| ===      | Identical                | Returns true if the values and data types are identical         |
+| !=       | Not equal                | Returns true if the values are not equal                        |
+| <>       | Not equal                | Returns true if the values are not equal                        |
+| !==      | Not identical            | Returns true if the values or data types are not identical       |
+| >        | Greater than             | Returns true if the first value is greater than the second value |
+| <        | Less than                | Returns true if the first value is less than the second value    |
+| >=       | Greater than or equal to | Returns true if the first value is greater than, or equal to, the second value |
+| <=       | Less than or equal to    | Returns true if the first value is less than, or equal to, the second value    |
+
