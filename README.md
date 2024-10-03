@@ -1523,3 +1523,4 @@ if ($a > $b && $a < $c ) {
 | xor      | Xor  | True if either condition is true, but not both   |
 | !        | Not  | True if the condition is not true                |
 
+- We can compare as many conditions as we like in one if statement:
