@@ -1503,3 +1503,12 @@ if ($t == 14) {
 
 ## Example
 - Check if $a is greater than $b, AND if $a is less than $c:
+ ```
+$a = 200;
+$b = 33;
+$c = 500;
+
+if ($a > $b && $a < $c ) {
+  echo "Both conditions are true";
+}
+```
