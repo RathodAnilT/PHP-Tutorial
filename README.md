@@ -1545,3 +1545,13 @@ if (condition) {
 ```
 ## Example
 - Output "Have a good day!" if the current time is less than 20, and "Have a good night!" otherwise:
+
+```
+$t = date("H");
+
+if ($t < "20") {
+  echo "Have a good day!";
+} else {
+  echo "Have a good night!";
+}
+```
