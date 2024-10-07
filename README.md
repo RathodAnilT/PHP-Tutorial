@@ -1555,3 +1555,4 @@ if ($t < "20") {
   echo "Have a good night!";
 }
 ```
+## PHP - The if...elseif...else Statement
