@@ -1536,3 +1536,11 @@ if ($a == 2 || $a == 3 || $a == 4 || $a == 5 || $a == 6 || $a == 7) {
 ## PHP if...else Statements
 - The if...else statement executes some code if a condition is true and another code if that condition is false.
 ## Syntax
+```
+if (condition) {
+  // code to be executed if condition is true;
+} else {
+  // code to be executed if condition is false;
+}
+```
+
