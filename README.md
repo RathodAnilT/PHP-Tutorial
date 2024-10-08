@@ -1557,3 +1557,5 @@ if ($t < "20") {
 ```
 ## PHP - The if...elseif...else Statement
 - The if...elseif...else statement executes different codes for more than two conditions.
+
+## Syntax
