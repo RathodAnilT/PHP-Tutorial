@@ -1571,7 +1571,8 @@ if (condition) {
 ## Example
 - Output "Have a good morning!" if the current time is less than 10, and "Have a good day!" if the current time is less than 20. Otherwise it will output "Have a good night!":
 
-```
+ ```
+<?php
 $t = date("H");
 
 if ($t < "10") {
@@ -1581,4 +1582,6 @@ if ($t < "10") {
 } else {
   echo "Have a good night!";
 }
+?>
 ```
+
