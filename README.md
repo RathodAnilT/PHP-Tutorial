@@ -1589,3 +1589,4 @@ if ($t < "10") {
 
 ## Short Hand If
 ## Example
+- One-line if statement:
