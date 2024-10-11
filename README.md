@@ -1586,3 +1586,5 @@ if ($t < "10") {
 ```
 
 ## PHP Shorthand if Statements
+
+## Short Hand If
