@@ -1598,3 +1598,5 @@ if ($a < 10) $b = "Hello";
 
 echo $b
 ```
+## Short Hand If...Else
+- if...else statements can also be written in one line, but the syntax is a bit different.
