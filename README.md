@@ -1602,4 +1602,10 @@ echo $b
 - if...else statements can also be written in one line, but the syntax is a bit different.
 ## Example
 One-line if...else statement:
+```
+$a = 13;
 
+$b = $a < 10 ? "Hello" : "Good Bye";
+
+echo $b;
+```
