@@ -1612,3 +1612,4 @@ echo $b;
 ## PHP Nested if Statement
 ## Nested If
 - You can have if statements inside if statements, this is called nested if statements.
+## Example
