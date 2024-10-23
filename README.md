@@ -1613,3 +1613,4 @@ echo $b;
 ## Nested If
 - You can have if statements inside if statements, this is called nested if statements.
 ## Example
+- An if inside an if:
