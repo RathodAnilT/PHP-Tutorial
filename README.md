@@ -1626,3 +1626,5 @@ if ($a > 10) {
   }
 }
 ```
+
+## PHP switch Statement
