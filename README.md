@@ -1628,3 +1628,4 @@ if ($a > 10) {
 ```
 
 ## PHP switch Statement
+- The switch statement is used to perform different actions based on different conditions.
