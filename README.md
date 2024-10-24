@@ -1629,3 +1629,6 @@ if ($a > 10) {
 
 ## PHP switch Statement
 - The switch statement is used to perform different actions based on different conditions.
+
+## The PHP switch Statement
+- Use the switch statement to select one of many blocks of code to be executed.
