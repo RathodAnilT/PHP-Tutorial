@@ -1634,3 +1634,18 @@ if ($a > 10) {
 - Use the switch statement to select one of many blocks of code to be executed.
 
 ## Syntax
+```
+switch (expression) {
+  case label1:
+    //code block
+    break;
+  case label2:
+    //code block;
+    break;
+  case label3:
+    //code block
+    break;
+  default:
+    //code block
+}
+```
