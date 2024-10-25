@@ -1632,3 +1632,5 @@ if ($a > 10) {
 
 ## The PHP switch Statement
 - Use the switch statement to select one of many blocks of code to be executed.
+
+## Syntax
