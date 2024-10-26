@@ -1656,3 +1656,5 @@ switch (expression) {
 - If there is a match, the associated block of code is executed
 - The break keyword breaks out of the switch block
 - The default code block is executed if there is no match
+
+## Example
