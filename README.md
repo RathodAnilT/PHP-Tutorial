@@ -1675,3 +1675,9 @@ switch ($favcolor) {
     echo "Your favorite color is neither red, blue, nor green!";
 }
 ```
+## The break Keyword
+- When PHP reaches a break keyword, it breaks out of the switch block.
+
+- This will stop the execution of more code, and no more cases are tested.
+
+- The last block does not need a break, the block breaks (ends) there anyway.
