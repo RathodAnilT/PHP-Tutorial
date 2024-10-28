@@ -1686,3 +1686,20 @@ switch ($favcolor) {
 - What happens if we remove the break statement from case "red"?
 
 - $favcolor is red, so the code block from case "red" is executed, but since it has no break statement, the code block from case "blue" will also be executed:
+
+```
+$favcolor = "red";
+
+switch ($favcolor) {
+  case "red":
+    echo "Your favorite color is red!";
+  case "blue":
+    "Your favorite color is blue!";
+    break;
+  case "green":
+    echo "Your favorite color is green!";
+    break;
+  default:
+    echo "Your favorite color is neither red, blue, nor green!";
+}
+```
