@@ -1681,3 +1681,8 @@ switch ($favcolor) {
 - This will stop the execution of more code, and no more cases are tested.
 
 - The last block does not need a break, the block breaks (ends) there anyway.
+
+## Example
+- What happens if we remove the break statement from case "red"?
+
+- $favcolor is red, so the code block from case "red" is executed, but since it has no break statement, the code block from case "blue" will also be executed:
