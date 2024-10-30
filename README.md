@@ -6,7 +6,7 @@
 
 ## Example PHP Script:
 
-```html
+```php
 <!DOCTYPE html>
 <html>
 <body>
