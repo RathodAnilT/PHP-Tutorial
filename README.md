@@ -99,7 +99,7 @@ Below, we have an example of a simple PHP file, with a PHP script that uses a bu
 - A simple .php file with both HTML code and PHP code:
 
  
-```html
+```php
  <!DOCTYPE html>
 <html>
 <body>
@@ -121,7 +121,7 @@ echo "Hello World!";
 
 ## Example
 - ECHO is the same as echo:
-```html
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -142,7 +142,7 @@ EcHo "Hello World!<br>";
 ## Example
 - $COLOR is not same as $color:
 
-```html
+```php
   <!DOCTYPE html>
 <html>
 <body>
@@ -173,7 +173,7 @@ PHP supports several ways of commenting:
 ## Example
 - Syntax for comments in PHP code:
 
-```
+```php
 // This is a single-line comment
 
 #This is also a single-line comment
@@ -195,13 +195,13 @@ multi-line comment */
 
 // Outputs a welcome message:
 
-```html
+```php
 echo "Welcome Home!";
 ```
 ## Example
 -- A comment at the end of a line:
 
-```html
+```php
 echo "Welcome Home!"; // Outputs a welcome message
 ```
 
@@ -225,7 +225,7 @@ echo "Welcome Home!"; // Outputs a welcome message
 ## Example
 - The  + 15 part will be ignored in the calculation:
 
-```html
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -242,7 +242,7 @@ echo $x;
 - In PHP, a variable starts with the $ sign, followed by the name of the variable:
 
 ## Example
-```html
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -277,14 +277,14 @@ In the example above, the variable $x will hold the value 5, and the variable $y
 - The following example will show how to output text and a variable:
 
 ## Example
-```
+```php
 $txt = "W3Schools.com";
 echo "I love $txt!";
 ```
 - The following example will produce the same output as the example above:
 
 ## Example
-```
+```php
 $txt = "W3Schools.com";
 echo "I love " . $txt . "!";
 ```
@@ -293,7 +293,7 @@ echo "I love " . $txt . "!";
 
 ## Example
 
-```
+```php
 $x = 5;
 $y = 4;
 echo $x + $y;
@@ -315,7 +315,7 @@ Variable Types
 PHP has no command for declaring a variable, and the data type depends on the value of the variable.
 
 ## Example
-```
+```php
 $x = 5;      // $x is an integer
 $y = "John"; // $y is a string
 echo $x;
@@ -338,13 +338,13 @@ echo $y;
 ## Example
 - The var_dump() function returns the data type and the value:
 
-```
+```php
 $x = 5;
 var_dump($x);
 ```
 ## Example
 - See what var_dump() returns for other data types:
-```
+```php
 var_dump(5);
 var_dump("John");
 var_dump(3.14);
@@ -355,7 +355,7 @@ var_dump(NULL);
 ## Assign String to a Variable
 - Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
 ## Example
-```
+```php
 $x = "John";
 echo $x;
 ```
@@ -366,7 +366,7 @@ echo $x;
 - You can assign the same value to multiple variables in one line:
 ## Example
 - All three variables get the value "Fruit":
-```
+```php
 $x = $y = $z = "Fruit";
 ```
 ## PHP Variables Scope
@@ -385,7 +385,7 @@ $x = $y = $z = "Fruit";
 
 ## Example
 - Variable with global scope:
-```
+```php
 $x = 5; // global scope
 
 function myTest() {
@@ -399,7 +399,7 @@ echo "<p>Variable x outside function is: $x</p>";
 ***A variable declared within a function has a LOCAL SCOPE and can only be accessed within that function:***
 ## Example
 - Variable with local scope:
-```
+```php
 function myTest() {
   $x = 5; // local scope
   echo "<p>Variable x inside function is: $x</p>";
@@ -415,7 +415,7 @@ echo "<p>Variable x outside function is: $x</p>";
 - To do this, use the global keyword before the variables (inside the function):
 
 ## Example
-```
+```php
 $x = 5;
 $y = 10;
 
@@ -433,7 +433,7 @@ echo $y; // outputs 15
 ***The example above can be rewritten like this:***
 
 ## Example
-```
+```php
 $x = 5;
 $y = 10;
 
@@ -450,7 +450,7 @@ echo $y; // outputs 15
 
 - To do this, use the static keyword when you first declare the variable:
 ## Example
-```
+```php
 function myTest() {
   static $x = 0;
   echo $x;
@@ -480,7 +480,7 @@ myTest();
 ## The PHP echo Statement
 - The echo statement can be used with or without parentheses: echo or echo().
 ## Example
-```
+```php
 echo "Hello";
 //same as:
 echo("Hello");
@@ -488,7 +488,7 @@ echo("Hello");
 ## Display Text
 - The following example shows how to output text with the echo command (notice that the text can contain HTML markup):
 ## Example
-```
+```php
 echo "<h2>PHP is Fun!</h2>";
 echo "Hello world!<br>";
 echo "I'm about to learn PHP!<br>";
@@ -497,7 +497,7 @@ echo "This ", "string ", "was ", "made ", "with multiple parameters.";
 ## Display Variables
 - The following example shows how to output text and variables with the echo statement:
 ## Example
-```
+```php
 $txt1 = "Learn PHP";
 $txt2 = "W3Schools.com";
 
@@ -512,7 +512,7 @@ echo "<p>Study PHP at $txt2</p>";
 - When using single quotes, variables have to be inserted using the . operator, like this:
 
 ## Example
-```
+```php
 $txt1 = "Learn PHP";
 $txt2 = "W3Schools.com";
 
@@ -522,7 +522,7 @@ echo '<p>Study PHP at ' . $txt2 . '</p>';
 ## The PHP print Statement
 - The print statement can be used with or without parentheses: print or print().
 ## Example
-```
+```php
 print "Hello";
 //same as:
 print("Hello");
@@ -531,7 +531,7 @@ print("Hello");
 - The following example shows how to output text with the print command (notice that the text can contain HTML markup):
 
 ## Example
-```
+```php
 print "<h2>PHP is Fun!</h2>";
 print "Hello world!<br>";
 print "I'm about to learn PHP!";
@@ -539,7 +539,7 @@ print "I'm about to learn PHP!";
 ## Display Variables
 - The following example shows how to output text and variables with the print statement:
 ## Example
-```
+```php
 $txt1 = "Learn PHP";
 $txt2 = "W3Schools.com";
 
@@ -554,7 +554,7 @@ print "<p>Study PHP at " . $txt2 . "</p>";
 - When using single quotes, variables have to be inserted using the . operator, like this:
 
 ## Example
-```
+```php
 $txt1 = "Learn PHP";
 $txt2 = "W3Schools.com";
 
@@ -577,7 +577,7 @@ print '<p>Study PHP at ' . $txt2 . '</p>';
 - You can get the data type of any object by using the var_dump() function.
 ## Example
 - The var_dump() function returns the data type and the value:
-```
+```php
 $x = 5;
 var_dump($x);
 ```
@@ -586,7 +586,7 @@ var_dump($x);
 
 - A string can be any text inside quotes. You can use single or double quotes:
 ## Example
-```
+```php
 $x = "Hello world!";
 $y = 'Hello world!';
 
@@ -604,7 +604,7 @@ var_dump($y);
   - Integers can be specified in: decimal (base 10), hexadecimal (base 16), octal (base 8), or binary (base 2) notation
 - In the following example $x is an integer. The PHP var_dump() function returns the data type and value:
 ## Example
-```
+```php
 $x = 5985;
 var_dump($x);
 ```
@@ -613,14 +613,14 @@ var_dump($x);
 
 - In the following example $x is a float. The PHP var_dump() function returns the data type and value:
 ## Example
-```
+```php
 $x = 10.365;
 var_dump($x);
 ```
 ## PHP Boolean
 - A Boolean represents two possible states: TRUE or FALSE.
 ## Example
-```
+```php
 $x = true;
 var_dump($x);
 ```
@@ -632,7 +632,7 @@ var_dump($x);
 
 - In the following example $cars is an array. The PHP var_dump() function returns the data type and value:
 ## Example
-```
+```php
 $cars = array("Volvo","BMW","Toyota");
 var_dump($cars);
 ```
@@ -647,7 +647,7 @@ var_dump($cars);
   values for the properties.
 - If you create a __construct() function, PHP will automatically call this function when you create an object from a class.
 ## Example
-```html
+```php
 class Car {
   public $color;
   public $model;
@@ -670,7 +670,7 @@ var_dump($myCar);
 - Tip: If a variable is created without a value, it is automatically assigned a value of NULL.
 - Variables can also be emptied by setting the value to NULL:
 ## Example
-```
+```php
 $x = "Hello world!";
 $x = null;
 var_dump($x);
@@ -679,7 +679,7 @@ var_dump($x);
 - If you assign an integer value to a variable, the type will automatically be an integer.
 - If you assign a string to the same variable, the type will change to a string:
 ## Example
-```
+```php
 $x = 5;
 var_dump($x);
 
@@ -690,7 +690,7 @@ var_dump($x);
 
 - Casting allows you to change data type on variables:
 ## Example
-```
+```php
 $x = 5;
 $x = (string) $x;
 var_dump($x);
@@ -705,7 +705,7 @@ var_dump($x);
 ## Strings
 - Strings in PHP are surrounded by either double quotation marks, or single quotation marks.
 ## Example
-```
+```php
 echo "Hello";
 echo 'Hello';
 ```
@@ -715,14 +715,14 @@ echo 'Hello';
 - E.g. when there is a variable in the string, it returns the value of the variable:
 ## Example
 - Double quoted string literals perform operations for special characters:
-```
+```php
 $x = "John";
 echo "Hello $x";
 ```
 - Single quoted strings does not perform such actions, it returns the string like it was written, with the variable name:
 ## Example
 - Single quoted string literals returns the string as it is:
-```
+```php
 $x = "John";
 echo 'Hello $x';
 ```
@@ -730,14 +730,14 @@ echo 'Hello $x';
 - The PHP strlen() function returns the length of a string.
 ## Example
 - Return the length of the string "Hello world!":
-```
+```php
 echo strlen("Hello world!");
 ```
 ## Word Count
 - The PHP str_word_count() function counts the number of words in a string.
 ## Example
 - Count the number of word in the string "Hello world!":
-```
+```php
 echo str_word_count("Hello world!");
 ```
 ## Search For Text Within a String
@@ -745,7 +745,7 @@ echo str_word_count("Hello world!");
 - If a match is found, the function returns the character position of the first match. If no match is found, it will return FALSE.
 ## Example
 - Search for the text "world" in the string "Hello world!":
-```
+```php
 echo strpos("Hello world!", "world");
 ```
 - Tip: The first character position in a string is 0 (not 1).
@@ -757,14 +757,14 @@ echo strpos("Hello world!", "world");
 ## Upper Case
 ## Example
 - The strtoupper() function returns the string in upper case:
-```
+```php
 $x = "Hello World!";
 echo strtoupper($x);
 ```
 ## Lower Case
 ## Example
 - The strtolower() function returns the string in lower case:
-```
+```php
 $x = "Hello World!";
 echo strtolower($x);
 ```
@@ -772,7 +772,7 @@ echo strtolower($x);
 - The PHP str_replace() function replaces some characters with some other characters in a string.
 ## Example
 - Replace the text "World" with "Dolly":
-```
+```php
 $x = "Hello World!";
 echo str_replace("World", "Dolly", $x)
 ```
@@ -780,7 +780,7 @@ echo str_replace("World", "Dolly", $x)
 - The PHP strrev() function reverses a string.
 ## Example
 - Reverse the string "Hello World!":
-```
+```php
 $x = "Hello World!";
 echo strrev($x);
 ```
@@ -788,7 +788,7 @@ echo strrev($x);
 - Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
 ## Example
 - The trim() removes any whitespace from the beginning or the end:
-```
+```php
 $x = " Hello World! ";
 echo trim($x);
 ```
@@ -799,7 +799,7 @@ echo trim($x);
 ## Note: The separator is required.
 ## Example
 - Split the string into an array. Use the space character as separator:
-```
+```php
 $x = "Hello World!";
 $y = explode(" ", $x);
 
@@ -819,7 +819,7 @@ Array ( [0] => Hello [1] => World! )
 - Specify the start index and the number of characters you want to return.
 ## Example
 - Start the slice at index 6 and end the slice 5 positions later:
-```
+```php
 $x = "Hello World!";
 echo substr($x, 6, 5);
 ```
@@ -827,7 +827,7 @@ echo substr($x, 6, 5);
 - By leaving out the length parameter, the range will go to the end:
 ## Example
 - Start the slice at index 6 and go all the way to the end:
-```
+```php
 $x = "Hello World!";
 echo substr($x, 6);
 ```
