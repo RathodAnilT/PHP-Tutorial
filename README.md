@@ -1705,3 +1705,5 @@ switch ($favcolor) {
     echo "Your favorite color is neither red, blue, nor green!";
 }
 ```
+## The default Keyword
+- The default keyword specifies the code to run if there is no case match:
