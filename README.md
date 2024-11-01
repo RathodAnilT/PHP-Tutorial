@@ -1707,3 +1707,6 @@ switch ($favcolor) {
 ```
 ## The default Keyword
 - The default keyword specifies the code to run if there is no case match:
+
+## Example
+- If no cases get a match, the default block is executed:
