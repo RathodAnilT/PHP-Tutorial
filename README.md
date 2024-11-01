@@ -835,7 +835,7 @@ echo substr($x, 6);
 - Use negative indexes to start the slice from the end of the string:
 ## Example
 - Get the 3 characters, starting from the "o" in world (index -5):
-```
+```php
 $x = "Hello World!";
 echo substr($x, -5, 3);
 ```
@@ -845,7 +845,7 @@ echo substr($x, -5, 3);
 - From the string "Hi, how are you?", get the characters starting from index 5, and continue until you reach the 3. character from the end (index -3).
 
 - Should end up with "ow are y":
-```
+```php
 $x = "Hi, how are you?";
 echo substr($x, 5, -3);
 ```
@@ -856,12 +856,12 @@ echo substr($x, 5, -3);
 - An escape character is a backslash \ followed by the character you want to insert.
 - An example of an illegal character is a double quote inside a string that is surrounded by double quotes:
 ## Example
-```
+```php
 $x = "We are the so-called "Vikings" from the north.";
 ```
 - To fix this problem, use the escape character \":
 ## Example
-```
+```php
 $x = "We are the so-called \"Vikings\" from the north.";
 ```
 ## Escape Characters
@@ -892,14 +892,14 @@ $x = "We are the so-called \"Vikings\" from the north.";
   - NaN
 - Variables of numeric types are created when you assign a value to them:
 ## Example
-```
+```php
 $a = 5;
 $b = 5.34;
 $c = "25";
 ```
 - To verify the type of any object in PHP, use the var_dump() function:
 ## Example
-```
+```php
 var_dump($a);
 var_dump($b);
 var_dump($c);
@@ -925,7 +925,7 @@ var_dump($c);
   - is_long() - alias of is_int()
 ## Example
 - Check if the type of a variable is integer:
-```
+```php
 $x = 5985;
 var_dump(is_int($x));
 
@@ -947,21 +947,21 @@ is_double() - alias of is_float()
 
 ## Example
 - Check if the type of a variable is float:
-```
+```php
 $x = 10.365;
 var_dump(is_float($x));
 ```
 ## PHP Infinity
 - A numeric value that is larger than PHP_FLOAT_MAX is considered infinite.
 - PHP has the following functions to check if a numeric value is finite or infinite:
- ```
+ ```php
 is_finite()
 is_infinite()
 ```
 - However, the PHP var_dump() function returns the data type and value:
 ## Example
 - Check if a numeric value is finite or infinite:
-```
+```php
  $x = 1.9e411;
 var_dump($x);
 ```
@@ -973,7 +973,7 @@ var_dump($x);
 - However, the PHP var_dump() function returns the data type and value:
 ## Example
 - Invalid calculation will return a NaN value:
-```
+```php
 $x = acos(8);
 var_dump($x);
 ```
@@ -981,7 +981,7 @@ var_dump($x);
 - The PHP is_numeric() function can be used to find whether a variable is numeric. The function returns true if the variable is a number or a numeric string, false otherwise.
 ## Example
 - Check if the variable is numeric:
-```
+```php
 $x = 5985;
 var_dump(is_numeric($x));
 
@@ -998,7 +998,7 @@ var_dump(is_numeric($x));
 - The (int), (integer), and intval() functions are often used to convert a value to an integer.
 ## Example
 - Cast float and string to integer:
-```
+```php
 // Cast float to int
 $x = 23465.768;
 $int_cast = (int)$x;
@@ -1025,7 +1025,7 @@ echo $int_cast;
 ## Cast to String
 - To cast to string, use the (string) statement:
 ## Example
-```
+```php
 $a = 5;       // Integer
 $b = 5.34;    // Float
 $c = "hello"; // String
@@ -1048,7 +1048,7 @@ var_dump($e);
 ## Cast to Integer
 - To cast to integer, use the (int) statement:
 ## Example
-```
+```php
 $a = 5;       // Integer
 $b = 5.34;    // Float
 $c = "25 kilometers"; // String
@@ -1068,7 +1068,7 @@ $g = (int) $g;
 ## Cast to Float
 - To cast to float, use the (float) statement:
 ## Example
-```
+```php
 $a = 5;       // Integer
 $b = 5.34;    // Float
 $c = "25 kilometers"; // String
@@ -1088,7 +1088,7 @@ $g = (float) $g;
 ## Cast to Boolean
 - To cast to boolean, use the (bool) statement:
 ## Example
-```
+```php
 $a = 5;       // Integer
 $b = 5.34;    // Float
 $c = 0;       // Integer
@@ -1115,7 +1115,7 @@ $i = (bool) $i;
 ## Cast to Array
 - To cast to array, use the (array) statement:
 ## Example
-```
+```php
 $a = 5;       // Integer
 $b = 5.34;    // Float
 $c = "hello"; // String
@@ -1133,7 +1133,7 @@ $e = (array) $e;
 - Objects converts into associative arrays where the property names becomes the keys and the property values becomes the values:
 ## Example
 - Converting Objects into Arrays:
-```
+```php
 class Car {
   public $color;
   public $model;
@@ -1155,7 +1155,7 @@ var_dump($myCar);
 - To cast to object, use the (object) statement:
 ## Example
 
-```
+```php
 $a = 5;       // Integer
 $b = 5.34;    // Float
 $c = "hello"; // String
@@ -1174,7 +1174,7 @@ $e = (object) $e;
 - Associative arrays converts into objects with the keys as property names and values as property values.
 ## Example
 - Converting Arrays into Objects:
-```
+```php
   $a = array("Volvo", "BMW", "Toyota"); // indexed array
 $b = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43"); // associative array
 
@@ -1184,7 +1184,7 @@ $b = (object) $b;
 ## Cast to NULL
 - To cast to NULL, use the (unset) statement:
 ## Example
-```
+```php
 $a = 5;       // Integer
 $b = 5.34;    // Float
 $c = "hello"; // String
@@ -1202,45 +1202,45 @@ $e = (unset) $e;
 ## PHP pi() Function
 - The pi() function returns the value of PI:
 ## Example
-```
+```php
 echo(pi());
 ```
 ## PHP min() and max() Functions
 - The min() and max() functions can be used to find the lowest or highest value in a list of arguments:
 ## Example
-```
+```php
 echo(min(0, 150, 30, 20, -8, -200));
 echo(max(0, 150, 30, 20, -8, -200));
 ```
 ## PHP abs() Function
 - The abs() function returns the absolute (positive) value of a number:
 ## Example
-```
+```php
 echo(abs(-6.7));
 ```
 ## PHP sqrt() Function
 The sqrt() function returns the square root of a number:
 ## Example
-```
+```php
 echo(sqrt(64));
 ```
 - PHP round() Function
 - The round() function rounds a floating-point number to its nearest integer:
 ## Example
-```
+```php
 echo(round(0.60));
 echo(round(0.49));
 ```
 ## Random Numbers
 - The rand() function generates a random number:
 ## Example
-```
+```php
 echo(rand());
 ```
 - To get more control over the random number, you can add the optional min and max parameters to specify the lowest integer and the highest integer to be returned.
 - For example, if you want a random integer between 10 and 100 (inclusive), use rand(10, 100):
 ## Example
-```
+```php
 echo(rand(10, 100));
 ```
 ## Complete PHP Math Reference
@@ -1259,7 +1259,7 @@ echo(rand(10, 100));
 ## Create a PHP Constant
 - To create a constant, use the define() function.
 ## Syntax
-```
+```php
 define(name, value);
 ```
 ## Parameters:
@@ -1267,7 +1267,7 @@ define(name, value);
   - value: Specifies the value of the constant
 ## Example
 - Create a constant with a case-sensitive name:
-```
+```php
 define("GREETING", "Welcome to W3Schools.com!");
 echo GREETING;
 ```
@@ -1275,7 +1275,7 @@ echo GREETING;
 - You can also create a constant by using the const keyword.
 ## Example
 - Create a case-sensitive constant with the const keyword:
-```
+```php
 const MYCAR = "Volvo";
 echo MYCAR;
 ```
@@ -1283,7 +1283,7 @@ echo MYCAR;
 - From PHP7, you can create an Array constant using the define() function.
 ## Example
 - Create an Array constant:
-```
+```php
 define("cars", [
   "Alfa Romeo",
   "BMW",
@@ -1294,7 +1294,7 @@ echo cars[0];
 ## Constants are Global
 - Constants are automatically global and can be used across the entire script.
 ## Example
-```
+```php
 define("GREETING", "Welcome to W3Schools.com!");
 
 function myTest() {
@@ -1445,14 +1445,14 @@ myTest();
        switch statement - selects one of many blocks of code to be executed
 ## PHP - The if Statement
 - Syntax
-```
+```php
 if (condition) {
   // code to be executed if condition is true;
 }
 ```
 ## Example
 - Output "Have a good day!" if 5 is larger than 3:
-```
+```php
 if (5 > 3) {
   echo "Have a good day!";
 }
@@ -1462,7 +1462,7 @@ if (5 > 3) {
 ## Example
 - Output "Have a good day!" if $t is less than 20:
 
-```
+```php
 $t = 14;
 if ($t < 20) {
   echo "Have a good day!";
@@ -1475,7 +1475,7 @@ if ($t < 20) {
 
 ## Example
 - Check if $t is equal to 14:
-```
+```php
 $t = 14;
 
 if ($t == 14) {
@@ -1503,7 +1503,7 @@ if ($t == 14) {
 
 ## Example
 - Check if $a is greater than $b, AND if $a is less than $c:
- ```
+ ```php
 $a = 200;
 $b = 33;
 $c = 500;
@@ -1526,7 +1526,7 @@ if ($a > $b && $a < $c ) {
 - We can compare as many conditions as we like in one if statement:
 ## Example
 - Check if $a is either 2, 3, 4, 5, 6, or 7:
-```
+```php
 $a = 5;
 
 if ($a == 2 || $a == 3 || $a == 4 || $a == 5 || $a == 6 || $a == 7) {
@@ -1536,7 +1536,7 @@ if ($a == 2 || $a == 3 || $a == 4 || $a == 5 || $a == 6 || $a == 7) {
 ## PHP if...else Statements
 - The if...else statement executes some code if a condition is true and another code if that condition is false.
 ## Syntax
-```
+```php
 if (condition) {
   // code to be executed if condition is true;
 } else {
@@ -1546,7 +1546,7 @@ if (condition) {
 ## Example
 - Output "Have a good day!" if the current time is less than 20, and "Have a good night!" otherwise:
 
-```
+```php
 $t = date("H");
 
 if ($t < "20") {
@@ -1559,7 +1559,7 @@ if ($t < "20") {
 - The if...elseif...else statement executes different codes for more than two conditions.
 
 ## Syntax
-```
+```php
 if (condition) {
   code to be executed if this condition is true;
 } elseif (condition) {
@@ -1571,7 +1571,7 @@ if (condition) {
 ## Example
 - Output "Have a good morning!" if the current time is less than 10, and "Have a good day!" if the current time is less than 20. Otherwise it will output "Have a good night!":
 
- ```
+ ```php
 <?php
 $t = date("H");
 
@@ -1591,7 +1591,7 @@ if ($t < "10") {
 ## Example
 - One-line if statement:
 
-```
+```php
 $a = 5;
 
 if ($a < 10) $b = "Hello";
@@ -1602,7 +1602,7 @@ echo $b
 - if...else statements can also be written in one line, but the syntax is a bit different.
 ## Example
 One-line if...else statement:
-```
+```php
 $a = 13;
 
 $b = $a < 10 ? "Hello" : "Good Bye";
@@ -1614,7 +1614,7 @@ echo $b;
 - You can have if statements inside if statements, this is called nested if statements.
 ## Example
 - An if inside an if:
-```
+```php
 $a = 13;
 
 if ($a > 10) {
@@ -1634,7 +1634,7 @@ if ($a > 10) {
 - Use the switch statement to select one of many blocks of code to be executed.
 
 ## Syntax
-```
+```php
 switch (expression) {
   case label1:
     //code block
@@ -1658,7 +1658,7 @@ switch (expression) {
 - The default code block is executed if there is no match
 
 ## Example
-```
+```php
 $favcolor = "red";
 
 switch ($favcolor) {
@@ -1689,7 +1689,7 @@ switch ($favcolor) {
 
 - $favcolor is red, so the code block from case "red" is executed, but since it has no break statement, the code block from case "blue" will also be executed:
 
-```
+```php
 $favcolor = "red";
 
 switch ($favcolor) {
