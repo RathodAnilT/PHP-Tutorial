@@ -1710,3 +1710,17 @@ switch ($favcolor) {
 
 ## Example
 - If no cases get a match, the default block is executed:
+```php
+  $d = 4;
+
+switch ($d) {
+  case 6:
+    echo "Today is Saturday";
+    break;
+  case 0:
+    echo "Today is Sunday";
+    break;
+  default:
+    echo "Looking forward to the Weekend";
+}
+```
