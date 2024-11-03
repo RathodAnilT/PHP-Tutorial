@@ -1725,3 +1725,5 @@ switch ($d) {
 }
 ```
 - The default case does not have to be the last case in a switch block:
+## Example
+- Putting  the default block elsewhere than at the end of the switch block is allowed, but not recommended.
