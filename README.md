@@ -1727,3 +1727,17 @@ switch ($d) {
 - The default case does not have to be the last case in a switch block:
 ## Example
 - Putting  the default block elsewhere than at the end of the switch block is allowed, but not recommended.
+```php
+  $d = 4;
+
+switch ($d) {
+  default:
+    echo "Looking forward to the Weekend";
+    break;
+  case 6:
+    echo "Today is Saturday";
+    break;
+  case 0:
+    echo "Today is Sunday";
+}
+```
