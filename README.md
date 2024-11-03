@@ -1724,3 +1724,4 @@ switch ($d) {
     echo "Looking forward to the Weekend";
 }
 ```
+- The default case does not have to be the last case in a switch block:
