@@ -1741,3 +1741,5 @@ switch ($d) {
     echo "Today is Sunday";
 }
 ```
+## Common Code Blocks
+- If you want multiple cases to use the same code block, you can specify the cases like this:
