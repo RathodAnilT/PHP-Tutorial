@@ -1745,3 +1745,23 @@ switch ($d) {
 - If you want multiple cases to use the same code block, you can specify the cases like this:
 ## Example
 - More than one case for each code block:
+
+```php
+$d = 3;
+
+switch ($d) {
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:  
+    echo "The weeks feels so long!";
+    break;
+  case 6:
+  case 0:
+    echo "Weekends are the best!";
+    break;
+  default:
+    echo "Something went wrong";
+}
+```
