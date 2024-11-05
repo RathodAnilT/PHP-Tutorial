@@ -1743,3 +1743,5 @@ switch ($d) {
 ```
 ## Common Code Blocks
 - If you want multiple cases to use the same code block, you can specify the cases like this:
+## Example
+- More than one case for each code block:
