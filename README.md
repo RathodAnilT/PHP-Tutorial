@@ -1766,3 +1766,4 @@ switch ($d) {
 }
 ```
 ## PHP Loops
+- In the following chapters you will learn how to repeat code by using loops in PHP.
