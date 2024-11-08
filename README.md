@@ -1765,3 +1765,4 @@ switch ($d) {
     echo "Something went wrong";
 }
 ```
+## PHP Loops
