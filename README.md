@@ -1780,3 +1780,5 @@ In PHP, we have the following loop types:
 - for - loops through a block of code a specified number of times
 - foreach - loops through a block of code for each element in an array
 - The following chapters will explain and give examples of each loop type.
+
+## PHP while Loop
