@@ -1783,3 +1783,5 @@ In PHP, we have the following loop types:
 
 ## PHP while Loop
 - The while loop - Loops through a block of code as long as the specified condition is true.
+## The PHP while Loop
+- The while loop executes a block of code as long as the specified condition is true.
