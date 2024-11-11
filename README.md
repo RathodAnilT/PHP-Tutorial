@@ -1795,3 +1795,7 @@ while ($i < 6) {
 }
 ```
 - Note: remember to increment $i, or else the loop will continue forever.
+
+- The while loop does not run a specific number of times, but checks after each iteration if the condition is still true.
+
+- The condition does not have to be a counter, it could be the status of an operation or any condition that evaluates to either true or false.
