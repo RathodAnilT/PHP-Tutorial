@@ -1785,3 +1785,12 @@ In PHP, we have the following loop types:
 - The while loop - Loops through a block of code as long as the specified condition is true.
 ## The PHP while Loop
 - The while loop executes a block of code as long as the specified condition is true.
+## Example
+- Print $i as long as $i is less than 6:
+```php
+$i = 1;
+while ($i < 6) {
+  echo $i;
+  $i++;
+}
+```
