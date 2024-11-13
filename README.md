@@ -1814,3 +1814,5 @@ do {
   $i++;
 } while ($i < 6);
 ```
+## The continue Statement
+- With the continue statement we can stop the current iteration, and continue with the next:
