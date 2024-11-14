@@ -1818,3 +1818,13 @@ do {
 - With the continue statement we can stop the current iteration, and continue with the next:
 ## Example
 - Stop, and jump to the next iteration if $i is 3:
+```php
+$i = 0;
+while ($i < 6) {
+  $i++;
+  if ($i == 3) continue;
+  echo $i;
+}
+```
+## Alternative Syntax
+- The while loop syntax can also be written with the endwhile statement like this
