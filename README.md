@@ -1828,3 +1828,13 @@ while ($i < 6) {
 ```
 ## Alternative Syntax
 - The while loop syntax can also be written with the endwhile statement like this
+## Example
+- Print $i as long as $i is less than 6:
+
+```php
+$i = 1;
+while ($i < 6):
+  echo $i;
+  $i++;
+endwhile;
+```
