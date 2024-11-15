@@ -1838,3 +1838,16 @@ while ($i < 6):
   $i++;
 endwhile;
 ```
+## Step 10
+- If you want the while loop count to 100, but only by each 10, you can increase the counter by 10 instead 1 in each iteration:
+
+## Example
+- Count to 100 by tens:
+```php
+$i = 0;
+while ($i < 100) {
+  $i+=10;
+  echo $i "<br>";
+}
+```
+
