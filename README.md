@@ -1853,3 +1853,14 @@ while ($i < 100) {
 
 ## PHP do while Loop
 - The do...while loop - Loops through a block of code once, and then repeats the loop as long as the specified condition is true.
+## Example
+- Print $i as long as $i is less than 6:
+```php
+$i = 1;
+
+do {
+  echo $i;
+  $i++;
+} while ($i < 6);
+```
+
