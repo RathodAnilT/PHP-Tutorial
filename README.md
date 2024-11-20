@@ -1868,3 +1868,14 @@ do {
 - In a do...while loop the condition is tested AFTER executing the statements within the loop. This means that the do...while loop will execute its statements at least once, even if the condition is false. See example below.
 
 - Let us see what happens if we set the $i variable to 8 instead of 1, before execute the same do...while loop again:
+
+## Example
+- Set $i = 8, then print $i as long as $i is less than 6:
+```php
+$i = 8;
+
+do {
+  echo $i;
+  $i++;
+} while ($i < 6);
+```
