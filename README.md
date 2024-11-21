@@ -1879,3 +1879,17 @@ do {
   $i++;
 } while ($i < 6);
 ```
+## The break Statement
+- With the break statement we can stop the loop even if the condition is still true:
+
+## Example
+- Stop the loop when $i is 3:
+```php
+$i = 1;
+
+do {
+  if ($i == 3) break;
+  echo $i;
+  $i++;
+}
+``` 
