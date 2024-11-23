@@ -1893,3 +1893,14 @@ do {
   $i++;
 }
 ``` 
+## The continue Statement
+- With the continue statement we can stop the current iteration, and continue with the next:
+
+## Example
+- Stop, and jump to the next iteration if $x is 3:
+```php
+for ($x = 0; $x <= 10; $x++) {
+  if ($x == 3) continue;
+  echo "The number is: $x <br>";
+}
+```
