@@ -1967,3 +1967,37 @@ for ($x = 0; $x <= 100; $x+=10) {
   echo "The number is: $x <br>";
 }
 ```
+## PHP foreach Loop
+- The foreach loop - Loops through a block of code for each element in an array or each property in an object.
+
+## The foreach Loop on Arrays
+- The most common use of the foreach loop, is to loop through the items of an array.
+
+## Example
+- Loop through the items of an indexed array:
+```php
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $x) {
+  echo "$x <br>";
+}
+```
+
+- For every loop iteration, the value of the current array element is assigned to the variabe $x. The iteration continues until it reaches the last array element.
+
+## Keys and Values
+- The array above is an indexed array, where the first item has the key 0, the second has the key 1, and so on.
+
+- Associative arrays are different, associative arrays use named keys that you assign to them, and when looping through associative arrays, you might want to keep the key as well as the value.
+
+- This can be done by specifying both the key and value in the foreach defintition, like this:
+
+## Example
+- Print both the key and the value from the $members array:
+```php
+$members = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+
+foreach ($members as $x => $y) {
+  echo "$x : $y <br>";
+}
+```
