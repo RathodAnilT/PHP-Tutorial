@@ -2001,3 +2001,39 @@ foreach ($members as $x => $y) {
   echo "$x : $y <br>";
 }
 ```
+
+## The foreach Loop on Objects
+- The foreach loop can also be used to loop through properties of an object:
+
+## Example
+- Print the property names and values of the $myCar object:
+```php
+class Car {
+  public $color;
+  public $model;
+  public function __construct($color, $model) {
+    $this->color = $color;
+    $this->model = $model;
+  }
+}
+
+$myCar = new Car("red", "Volvo");
+
+foreach ($myCar as $x => $y) {
+  echo "$x: $y <br>";
+}
+```
+
+## The break Statement
+- With the break statement we can stop the loop even if it has not reached the end:
+
+## Example
+- Stop the loop if $x is "blue":
+```php
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $x) {
+  if ($x == "blue") break;
+  echo "$x <br>";
+}
+```
