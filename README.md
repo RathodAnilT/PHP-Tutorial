@@ -2037,3 +2037,19 @@ foreach ($colors as $x) {
   echo "$x <br>";
 }
 ```
+## The continue Statement
+- With the continue statement we can stop the current iteration, and continue with the next:
+
+## Example
+- Stop, and jump to the next iteration if $x is "blue":
+```php
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $x) {
+  if ($x == "blue") continue;
+  echo "$x <br>";
+}
+```
+
+## Foreach Byref
+- When looping through the array items, any changes done to the array item will, by default, NOT affect the original array:
