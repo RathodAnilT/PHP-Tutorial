@@ -2078,3 +2078,16 @@ foreach ($colors as &$x) {
 
 var_dump($colors);
 ```
+
+## Alternative Syntax
+- The foreach loop syntax can also be written with the endforeach statement like this
+
+## Example
+- Loop through the items of an indexed array:
+```php
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $x) :
+  echo "$x <br>";
+endforeach;
+```
