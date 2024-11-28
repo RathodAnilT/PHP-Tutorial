@@ -2053,3 +2053,28 @@ foreach ($colors as $x) {
 
 ## Foreach Byref
 - When looping through the array items, any changes done to the array item will, by default, NOT affect the original array:
+
+## Example
+- By default, changing an array item will not affect the original array:
+```php
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $x) {
+  if ($x == "blue") $x = "pink";
+}
+
+var_dump($colors);
+```
+- BUT, by using the & character in the foreach declaration, the array item is assigned by reference, which results in any changes done to the array item will also be done to the original array:
+
+## Example
+- By assigning the array items by reference, changes will affect the original array:
+```php
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as &$x) {
+  if ($x == "blue") $x = "pink";
+}
+
+var_dump($colors);
+```
