@@ -2151,3 +2151,36 @@ foreach ($colors as $x) {
   echo "$x <br>";
 }
 ```
+
+## PHP Continue
+- The continue statement can be used to jump out of the current iteration of a loop, and continue with the next.
+
+## Continue in For Loops
+- The continue statement stops the current iteration in the for loop and continue with the next.
+  
+## Example
+- Move to next iteration if $x = 4:
+```php
+  for ($x = 0; $x < 10; $x++) {
+  if ($x == 4) {
+    continue;
+  }
+  echo "The number is: $x <br>";
+ }
+ ```
+## Continue in While Loop
+- The continue statement stops the current iteration in the while loop and continue with the next.
+
+## Continue Example
+- Move to next iteration if $x = 4:
+```php
+$x = 0;
+
+while($x < 10) {
+  if ($x == 4) {
+    continue;
+  }
+  echo "The number is: $x <br>";
+  $x++;
+}
+```
