@@ -2184,3 +2184,31 @@ while($x < 10) {
   $x++;
 }
 ```
+
+## Continue in Do While Loop
+- The continue statement stops the current iteration in the do...while loop and continue with the next.
+
+## Example
+- Stop, and jump to the next iteration if $i is 3:
+```php
+$i = 0;
+
+do {
+  $i++;
+  if ($i == 3) continue;
+  echo $i;
+} while ($i < 6);
+```
+## Continue in For Each Loop
+- The continue statement stops the current iteration in the foreach loop and continue with the next.
+
+## Example
+- Stop, and jump to the next iteration if $x is "blue":
+```php
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $x) {
+  if ($x == "blue") continue;
+  echo "$x <br>";
+}
+```
