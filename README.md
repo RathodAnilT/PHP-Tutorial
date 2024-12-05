@@ -2237,3 +2237,32 @@ function myMessage() {
   echo "Hello world!";
 }
 ```
+
+- Note: A function name must start with a letter or an underscore. Function names are NOT case-sensitive.
+
+- Tip: Give the function a name that reflects what the function does!
+
+## Call a Function
+- To call the function, just write its name followed by parentheses ():
+
+## Example
+```php
+function myMessage() {
+  echo "Hello world!";
+}
+
+myMessage();
+```
+
+- In our example, we create a function named myMessage().
+
+- The opening curly brace { indicates the beginning of the function code, and the closing curly brace } indicates the end of the function.
+
+- The function outputs "Hello world!".
+
+## PHP Function Arguments
+- Information can be passed to functions through arguments. An argument is just like a variable.
+
+- Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
+
+-The following example has a function with one argument ($fname). When the familyName() function is called, we also pass along a name, e.g. ("Jani"), and the name is used inside the function, which outputs several different first names, but an equal last name:
