@@ -2267,3 +2267,15 @@ myMessage();
 
 - The following example has a function with one argument ($fname). When the familyName() function is called, we also pass along a name, e.g. ("Jani"), and the name is used 
   inside the function, which outputs several different first names, but an equal last name:
+
+## Example
+```php
+function familyName($fname) {
+  echo "$fname Refsnes.<br>";
+}
+
+familyName("Jani");
+familyName("Hege");
+familyName("Stale");
+familyName("Kai Jim")
+```
