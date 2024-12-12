@@ -2492,3 +2492,12 @@ An array is a special variable that can hold many values under a single name, an
 ```php
 $myArr = array("Volvo", 15, ["apples", "bananas"], myFunction);
 ```
+## Array Functions
+- The real strength of PHP arrays are the built-in array functions, like the count() function for counting array items:
+
+## Example
+- How many items are in the $cars array:
+```
+$cars = array("Volvo", "BMW", "Toyota");
+echo count($cars);
+```
