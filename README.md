@@ -2497,7 +2497,7 @@ $myArr = array("Volvo", 15, ["apples", "bananas"], myFunction);
 
 ## Example
 - How many items are in the $cars array:
-```
+```php
 $cars = array("Volvo", "BMW", "Toyota");
 echo count($cars);
 ```
