@@ -2501,3 +2501,8 @@ $myArr = array("Volvo", 15, ["apples", "bananas"], myFunction);
 $cars = array("Volvo", "BMW", "Toyota");
 echo count($cars);
 ```
+
+## PHP Indexed Arrays
+- In indexed arrays each item has an index number.
+
+- By default, the first item has index 0, the second item has item 1, etc
