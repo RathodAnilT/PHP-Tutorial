@@ -2506,3 +2506,30 @@ echo count($cars);
 - In indexed arrays each item has an index number.
 
 - By default, the first item has index 0, the second item has item 1, etc
+
+## Example
+- Create and display an indexed array:
+```php
+$cars = array("Volvo", "BMW", "Toyota");
+var_dump($cars);
+```
+## Access Indexed Arrays
+- To access an array item you can refer to the index number.
+
+## Example
+- Display the first array item:
+```php
+$cars = array("Volvo", "BMW", "Toyota");
+echo $cars[0];
+```
+
+## Change Value
+- To change the value of an array item, use the index number:
+
+## Example
+- Change the value of the second item:
+```php
+$cars = array("Volvo", "BMW", "Toyota");
+$cars[1] = "Ford";
+var_dump($cars);
+```
