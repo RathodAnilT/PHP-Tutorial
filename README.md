@@ -2533,3 +2533,15 @@ $cars = array("Volvo", "BMW", "Toyota");
 $cars[1] = "Ford";
 var_dump($cars);
 ```
+
+## Loop Through an Indexed Array
+- To loop through and print all the values of an indexed array, you could use a foreach loop, like this:
+
+## Example
+- Display all array items:
+```php
+$cars = array("Volvo", "BMW", "Toyota");
+foreach ($cars as $x) {
+  echo "$x <br>";
+}
+```
