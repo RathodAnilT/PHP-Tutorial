@@ -2545,3 +2545,20 @@ foreach ($cars as $x) {
   echo "$x <br>";
 }
 ```
+## PHP Associative Arrays
+- Associative arrays are arrays that use named keys that you assign to them
+## Example
+```php
+$car = array("brand"=>"Ford", "model"=>"Mustang", "year"=>1964);
+var_dump($car);
+```
+
+## Access Associative Arrays
+- To access an array item you can refer to the key name.
+
+## Example
+- Display the model of the car:
+```php
+$car = array("brand"=>"Ford", "model"=>"Mustang", "year"=>1964);
+echo $car["model"];
+```
