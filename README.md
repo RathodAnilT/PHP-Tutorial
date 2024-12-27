@@ -2586,3 +2586,18 @@ foreach ($car as $x => $y) {
   echo "$x: $y <br>";
 }
 ```
+## PHP Create Arrays
+
+
+## Create Array
+- You can create arrays by using the array() function:
+## Example
+```php
+$cars = array("Volvo", "BMW", "Toyota");
+```
+- You can also use a shorter syntax by using the [] brackets:
+
+## Example
+```php
+$cars = ["Volvo", "BMW", "Toyota"];
+```
