@@ -20,7 +20,7 @@ echo "My first PHP script!";
 
 ```
 ## Example
-## PHP Introduction........Let's Gooooooooo....
+## PHP Introduction.......Let's Gooooooooo....
 
 #  What You Should Already Know
 Before you continue you should have a basic understanding of the following:
