@@ -2849,3 +2849,29 @@ array_push($fruits, "Orange", "Kiwi", "Lemon");
 $cars = array("brand" => "Ford", "model" => "Mustang");
 $cars += ["color" => "red", "year" => 1964];
 ```
+
+## PHP Delete Array Items
+## Remove Array Item
+- To remove an existing item from an array, you can use the array_splice() function.
+
+- With the array_splice() function you specify the index (where to start) and how many items you want to delete.
+
+##Example
+- Remove the second item:
+```php
+$cars = array("Volvo", "BMW", "Toyota");
+array_splice($cars, 1, 1);
+```
+- After the deletion, the array gets reindexed automatically, starting at index 0.
+
+## Using the unset Function
+- You can also use the unset() function to delete existing array items.
+
+- Note: The unset() function does not re-arrange the indexes, meaning that after deletion the array will no longer contain the missing indexes.
+
+## Example
+-Remove the second item:
+```php
+$cars = array("Volvo", "BMW", "Toyota");
+unset($cars[1]);
+```
