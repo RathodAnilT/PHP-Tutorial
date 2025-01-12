@@ -3028,3 +3028,7 @@ krsort($age);
 - For a two-dimensional array you need two indices to select an element
 - For a three-dimensional array you need three indices to select an element
 ## PHP - Two-dimensional Arrays
+## PHP - Two-dimensional Arrays
+- A two-dimensional array is an array of arrays (a three-dimensional array is an array of arrays of arrays).
+
+- First, take a look at the following table:
