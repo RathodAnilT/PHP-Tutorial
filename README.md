@@ -3074,3 +3074,7 @@ for ($row = 0; $row < 4; $row++) {
   echo "</ul>";
 }
 ```
+
+## PHP Array Functions
+## PHP Array Functions
+- PHP has a set of built-in functions that you can use on arrays.
