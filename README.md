@@ -3159,3 +3159,7 @@ for ($row = 0; $row < 4; $row++) {
 | `uasort()`                 | Sorts an array by values using a user-defined comparison function and maintains the index association |
 | `uksort()`                 | Sorts an array by keys using a user-defined comparison function                                     |
 | `usort()`                  | Sorts an array by values using a user-defined comparison function                                   |
+
+
+## PHP Global Variables - Superglobals
+- Superglobals were introduced in PHP 4.1.0, and are built-in variables that are always available in all scopes.
