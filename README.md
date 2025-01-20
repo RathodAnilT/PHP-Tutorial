@@ -3163,3 +3163,6 @@ for ($row = 0; $row < 4; $row++) {
 
 ## PHP Global Variables - Superglobals
 - Superglobals were introduced in PHP 4.1.0, and are built-in variables that are always available in all scopes.
+
+## PHP Global Variables - Superglobals
+- Some predefined variables in PHP are "superglobals", which means that they are always accessible, regardless of scope - and you can access them from any function, class or file without having to do anything special.
