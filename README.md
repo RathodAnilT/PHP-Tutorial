@@ -3180,3 +3180,6 @@ for ($row = 0; $row < 4; $row++) {
 - $_SESSION
   
 - The next chapters will explain some of the superglobals, and the rest will be explained in later chapters
+
+## PHP $GLOBALS
+- $GLOBALS is an array that contains all global variables.
