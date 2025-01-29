@@ -1,6 +1,6 @@
 
 # 🚀PHP-Tutorial🚀
-- For more information on PHP, check out the [W3Schools PHP Tutorial](https://www.w3schools.com/php/).
+- For more information on PHP, check out the [W3Schools PHP Tutorial](https://www.w3schools.com/php/)...
 - PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.
 
 - PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP..
