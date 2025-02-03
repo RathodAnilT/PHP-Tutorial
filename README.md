@@ -3536,3 +3536,43 @@ function myfunction() {
 $name = $_POST['fname'];
 echo $name;
 ```
+## PHP Superglobal - $_GET
+
+## PHP $_GET
+- $_GET contains an array of variables received via the HTTP GET method.
+
+- There are two main ways to send variables via the HTTP GET method:
+
+- Query strings in the URL
+- HTML Forms
+
+## Query string in the URL
+- A query string is data added at the end of a URL. In the link below, everything after the ? sign is part of the query string:
+```php
+<a href="demo_phpfile.php?subject=PHP&web=W3schools.com">Test $GET</a>
+```
+- The query string above contains two key/value pairs:
+```php
+subject=PHP
+web=W3schools.com
+```
+- In the PHP file we can use the $_GET variable to collect the value of the query string.
+
+## Example
+- The PHP file demo_phpfile.php:
+```php
+<html>
+<body>
+
+<?php
+echo "Study " . $_GET['subject'] . " at " . $_GET['web'];
+?>
+
+</body>
+</html>
+```
+
+## $_GET in HTML Forms
+- A HTML form submits information via the HTTP GET method if the form's method attribute is set to "GET".
+
+- To demonstrate this, we start by creating a simple HTML form:
