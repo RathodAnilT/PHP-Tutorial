@@ -3576,3 +3576,40 @@ echo "Study " . $_GET['subject'] . " at " . $_GET['web'];
 - A HTML form submits information via the HTTP GET method if the form's method attribute is set to "GET".
 
 - To demonstrate this, we start by creating a simple HTML form:
+
+```php
+HTML Form
+
+<html>
+<body>
+
+<form action="welcome_get.php" method="GET">
+  Name: <input type="text" name="name">
+  E-mail: <input type="text" name="email">
+  <input type="submit">
+</form>
+
+</body>
+</html>
+```
+- When a user clicks the submit button, the form data is sent to a PHP file specified in the action attribute of the <form> tag.
+
+- The form fields are sent to the PHP file, with your input, as query strings:
+
+```php
+welcome_get.php?name=John&email=john@example.com
+```
+- In the action file we can use the $_GET variable to collect the value of the input fields.
+
+## Example
+- PHP code inside the welcome_get.php page:
+```PHP
+<html>
+<body>
+
+Welcome <?php echo $_GET["name"]; ?><br>
+Your email address is: <?php echo $_GET["email"]; ?>
+
+</body>
+</html>
+```
