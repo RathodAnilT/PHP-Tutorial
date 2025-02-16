@@ -3620,3 +3620,17 @@ Your email address is: <?php echo $_GET["email"]; ?>
 - A regular expression can be a single character, or a more complicated pattern.
 
 - Regular expressions can be used to perform all types of text search and text replace operations.
+
+## Syntax
+- In PHP, regular expressions are strings composed of delimiters, a pattern and optional modifiers.
+```php
+$exp = "/w3schools/i";
+```
+- In the example above, / is the delimiter, w3schools is the pattern that is being searched for, and i is a modifier that makes the search case-insensitive.
+
+- The delimiter can be any character that is not a letter, number, backslash or space. The most common delimiter is the forward slash (/), but when your pattern contains forward slashes it is convenient to choose other delimiters such as # or ~.
+
+## Regular Expression Functions
+- PHP provides a variety of functions that allow you to use regular expressions.
+
+- The most common functions are:
