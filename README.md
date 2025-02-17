@@ -3634,3 +3634,40 @@ $exp = "/w3schools/i";
 - PHP provides a variety of functions that allow you to use regular expressions.
 
 - The most common functions are:
+| Function        | Description |
+|---------------|------------------------------------------------------------|
+| `preg_match()`    | Returns 1 if the pattern was found in the string and 0 if not |
+| `preg_match_all()` | Returns the number of times the pattern was found in the string, which may also be 0 |
+| `preg_replace()`   | Returns a new string where matched patterns have been replaced with another string |
+
+
+## Using preg_match()
+- The preg_match() function will tell you whether a string contains matches of a pattern.
+
+## Example
+- Use a regular expression to do a case-insensitive search for "w3schools" in a string:
+```php
+$str = "Visit W3Schools";
+$pattern = "/w3schools/i";
+echo preg_match($pattern, $str);
+```
+## Using preg_match_all()
+- The preg_match_all() function will tell you how many matches were found for a pattern in a string.
+
+## Example
+- Use a regular expression to do a case-insensitive count of the number of occurrences of "ain" in a string:
+```php
+$str = "The rain in SPAIN falls mainly on the plains.";
+$pattern = "/ain/i";
+echo preg_match_all($pattern, $str);
+```
+## Using preg_replace()
+- The preg_replace() function will replace all of the matches of the pattern in a string with another string.
+
+## Example
+- Use a case-insensitive regular expression to replace Microsoft with W3Schools in a string:
+```php
+$str = "Visit Microsoft!";
+$pattern = "/microsoft/i";
+echo preg_replace($pattern, "W3Schools", $str);
+```
