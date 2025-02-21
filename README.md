@@ -3718,3 +3718,15 @@ echo preg_replace($pattern, "W3Schools", $str);
 | `n{3}` | Matches any string that contains a sequence of exactly 3 `n`'s |
 | `n{2,5}` | Matches any string that contains a sequence of at least 2, but not more than 5 `n`'s |
 | `n{3,}` | Matches any string that contains a sequence of at least 3 `n`'s |
+
+
+## Grouping
+- You can use parentheses ( ) to apply quantifiers to entire patterns. They also can be used to select parts of the pattern to be used as a match.
+
+## Example
+- Use grouping to search for the word "banana" by looking for ba followed by two instances of na:
+```php
+$str = "Apples and bananas.";
+$pattern = "/ba(na){2}/i";
+echo preg_match($pattern, $str);
+```
