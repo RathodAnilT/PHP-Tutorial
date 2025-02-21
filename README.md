@@ -3671,3 +3671,48 @@ $str = "Visit Microsoft!";
 $pattern = "/microsoft/i";
 echo preg_replace($pattern, "W3Schools", $str);
 ```
+
+## Regular Expression Modifiers
+| Modifier | Description |
+|----------|-------------|
+| `i` | Performs a case-insensitive search |
+| `m` | Performs a multiline search (matches beginning or end of each line) |
+| `u` | Enables correct matching of UTF-8 encoded patterns |
+
+## Regular Expression Patterns
+| Expression | Description |
+|------------|-------------|
+| `[abc]` | Find one or many of the characters inside the brackets |
+| `[^abc]` | Find any character NOT between the brackets |
+| `[a-z]` | Find any character alphabetically between two letters |
+| `[A-z]` | Find any character alphabetically between a specified upper-case and lower-case letter |
+| `[A-Z]` | Find any character alphabetically between two upper-case letters |
+| `[123]` | Find one or many of the digits inside the brackets |
+| `[0-5]` | Find any digits between the two numbers |
+| `[0-9]` | Find any digits |
+
+## Metacharacters
+| Metacharacter | Description |
+|--------------|-------------|
+| `|` | Find a match for any one of the patterns separated by `|`, e.g., `cat|dog|fish` |
+| `.` | Find any character |
+| `^` | Finds a match at the beginning of a string, e.g., `^Hello` |
+| `$` | Finds a match at the end of the string, e.g., `World$` |
+| `\d` | Find any digits |
+| `\D` | Find any non-digits |
+| `\s` | Find any whitespace character |
+| `\S` | Find any non-whitespace character |
+| `\w` | Find any alphabetical letter (a to Z) and digit (0 to 9) |
+| `\W` | Find any non-alphabetical and non-digit character |
+| `\b` | Find a match at the beginning or end of a word, e.g., `\bWORD` or `WORD\b` |
+| `\uxxxx` | Find the Unicode character specified by the hexadecimal number `xxxx` |
+
+## Quantifiers
+| Quantifier | Description |
+|------------|-------------|
+| `n+` | Matches any string that contains at least one `n` |
+| `n*` | Matches any string that contains zero or more occurrences of `n` |
+| `n?` | Matches any string that contains zero or one occurrences of `n` |
+| `n{3}` | Matches any string that contains a sequence of exactly 3 `n`'s |
+| `n{2,5}` | Matches any string that contains a sequence of at least 2, but not more than 5 `n`'s |
+| `n{3,}` | Matches any string that contains a sequence of at least 3 `n`'s |
