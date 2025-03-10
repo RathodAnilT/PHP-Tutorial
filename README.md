@@ -3723,7 +3723,7 @@ echo preg_replace($pattern, "W3Schools", $str);
 ## Grouping
 - You can use parentheses ( ) to apply quantifiers to entire patterns. They also can be used to select parts of the pattern to be used as a match.
 
-## Example
+## Example..
 - Use grouping to search for the word "banana" by looking for ba followed by two instances of na:
 ```php
 $str = "Apples and bananas.";
