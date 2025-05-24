@@ -5,7 +5,7 @@
 
 - PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.
 
-## Example PHP Script:--
+## Example PHP Script:-
 
 ```php
 <!DOCTYPE html>
