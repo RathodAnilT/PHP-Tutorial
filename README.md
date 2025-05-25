@@ -3832,3 +3832,8 @@ Your email address is: <?php echo $_GET["email"]; ?>
 
 - However, because the variables are not displayed in the URL, it is not possible to bookmark the page.
 
+
+## PHP Form Validation
+
+
+
